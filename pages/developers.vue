@@ -14,18 +14,13 @@
       >
         Built by developers
         <br />for developers
-        <!-- <div style="display: inline-block" class="finance animated">Finance</div> -->
-        <!-- <div class="insurance">Insurance</div> -->
       </h1>
       <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive">
-        <span data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">
-          Get access to outside data easily using our SDK.
-          <!-- Blockchains do not have access to the data from outside the blockchain. Such data is necessary for operation of various decentralized applications.
-
-Traditionally this is done by using a centralized entities called “Oracles”. But they are a single point of failure in otherwise decentralized applications and must be trustworthy.
-
-          Razor is truly decentralized oracle platform offering a high degree of decentralization and economic security, which is crucial for decentralized finance applications.-->
-        </span>
+        <span
+          data-aos-duration="500"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >Get access to outside data easily using our SDK.</span>
       </div>
     </div>
     <section class="content_1 bg-light pt-80 pb-80">
@@ -80,7 +75,24 @@ Traditionally this is done by using a centralized entities called “Oracles”.
 
 <script>
 export default {
-  name: "Developers"
+  name: "Developers",
+  head() {
+    return {
+      title: "Developers",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Access price of Ether on Rinkeby today"
+        },
+        {
+          name: "keywords",
+          content:
+            "Razor, Network, SDK, BTC, ETH, Rinkeby, Blockchain, Oracle Network"
+        }
+      ]
+    };
+  }
 };
 </script>
 

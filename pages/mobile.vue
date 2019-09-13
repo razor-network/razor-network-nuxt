@@ -25,25 +25,6 @@
             <img class="w-240 h-480 aos-init aos-animate" src="../assets/images/razorapp1.png" />
           </div>
         </div>
-        <!-- <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-left text-adaptive">
-			<span data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">
-
-			Razor is the world's first decentralized oracle network with onchain governance, offering high economic security
-			Blockchains do not have access to the data from outside the blockchain. Such data is necessary for operation of various decentralized applications.
-
-Traditionally this is done by using a centralized entities called “Oracles”. But they are a single point of failure in otherwise decentralized applications and must be trustworthy.
-
-Razor is truly decentralized oracle platform offering a high degree of decentralization and economic security, which is crucial for decentralized finance applications.
-
-			</span>
-        </div>-->
-
-        <!-- <div class="color-white op-3 text-center mt-35">
-				<span data-aos-duration="500" data-aos="fade-down" data-aos-delay="750">
-					Subscribe to our newsletter for latest updates
-				<a href="#" class="link color-white">Terms of Service</a>
-				</span>
-        </div>-->
       </div>
     </header>
 
@@ -136,7 +117,6 @@ Razor is truly decentralized oracle platform offering a high degree of decentral
             >Application developers interested in using the platform, and for partnership enquiries, please contact us.</div>
             <div data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">
               <a href="https://forms.gle/soV7ZCjottt4Y2EP6" class="mb-30 btn lg action-1">Contact us</a>
-              <!-- <div class="color-heading text-adaptive">Commercial License</div> -->
             </div>
           </div>
         </div>
@@ -147,7 +127,24 @@ Razor is truly decentralized oracle platform offering a high degree of decentral
 
 <script>
 export default {
-  name: "mobile"
+  name: "mobile",
+  head() {
+    return {
+      title: "Mobile Platform",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Staking accessible on mobile platform"
+        },
+        {
+          name: "keywords",
+          content:
+            "Razor, Network, Mobile Platform, Assets, Staking, Governance"
+        }
+      ]
+    };
+  }
 };
 </script>
 
