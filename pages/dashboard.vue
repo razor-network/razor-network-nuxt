@@ -60,7 +60,11 @@
 
     <div class="video_popup">
       <a class="close">
-        <img srcset="i/close_white@2x.png 2x" src="i/close_white.png" alt />
+        <img
+          srcset="../assets/images/close_white@2x.png 2x"
+          src="../assets/images/close_white.png"
+          alt
+        />
       </a>
       <div class="d-flex align-items-center justify-content-center w-full h-full iframe_container"></div>
     </div>

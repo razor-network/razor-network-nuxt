@@ -20,7 +20,6 @@ $(document).ready(function () {
         }
     }
     $('.open_menu').click(function (event) {
-        console.log('clicked')
         event.preventDefault();
         $('.navigation_mobile').addClass('opened');
     });
