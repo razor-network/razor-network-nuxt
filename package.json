@@ -1,0 +1,25 @@
+{
+  "name": "razor-network",
+  "version": "1.0.0",
+  "description": "My badass Nuxt.js project",
+  "author": "rpk79",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "chart.js": "^2.8.0",
+    "jquery": "^3.4.1",
+    "nuxt": "^2.0.0",
+    "vue-chartjs": "^3.4.2",
+    "web3": "^1.2.1",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {}
+}
