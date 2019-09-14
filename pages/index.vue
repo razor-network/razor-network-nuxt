@@ -1,9 +1,7 @@
 <template>
-<body>
   <div>
     <Home />
   </div>
-</body>
 </template>
 
 <script>
