@@ -137,4 +137,9 @@ export default {
 </script>
 
 <style>
+@media (max-width: 1199.98px) {
+  .header_menu_2 {
+    display: none;
+  }
+}
 </style>
