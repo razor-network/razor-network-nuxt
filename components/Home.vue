@@ -6,12 +6,7 @@
         <img src="../assets/images/logo3.svg" height="50px" />
       </a>
     </div>
-    <h1
-      class="color-white text-center"
-      data-aos-duration="500"
-      data-aos="fade-down"
-      data-aos-delay="0"
-    >
+    <h1 class="color-white text-center">
       Truly decentralized oracle network
       <br />for decentralized
       <div style="display: inline-block" class="animated faster" v-bind:class="classes">{{text}}</div>

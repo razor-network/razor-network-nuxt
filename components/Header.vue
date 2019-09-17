@@ -16,7 +16,10 @@
           <!-- <a href="/" class="f-heading f-22 link color-main mb-20">Home</a> -->
         </div>
         <div>
-          <nuxt-link to="/dashboard" class="f-heading f-22 link color-main mb-20">Testnet</nuxt-link>
+          <a
+            href="https://dashboard.razor.network/"
+            class="f-heading f-22 link color-main mb-20"
+          >Testnet</a>
         </div>
         <div>
           <nuxt-link to="/developers" class="f-heading f-22 link color-main mb-20">Developers</nuxt-link>
@@ -97,7 +100,7 @@
               <!-- <a href="#" class="link color-white f-18 mx-15">Features</a>
 					<a href="#" class="link color-white f-18 mx-15">Team</a>
               <a href="#" class="btn sm action-2 mx-15">Contact</a>-->
-              <nuxt-link to="/dashboard" class="link color-white f-18 mx-15">Testnet</nuxt-link>
+              <a href="https://dashboard.razor.network/" class="link color-white f-18 mx-15">Testnet</a>
               <nuxt-link to="/developers" class="link color-white f-18 mx-15">Developers</nuxt-link>
               <nuxt-link to="/mobile" class="link color-white f-18 mx-15">Mobile</nuxt-link>
               <a class="link color-white f-18 mx-15" href="https://docs.razor.network">Documentation</a>
