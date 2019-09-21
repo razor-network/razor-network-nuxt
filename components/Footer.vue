@@ -8,11 +8,7 @@
             data-aos-duration="500"
             data-aos="fade-down"
             data-aos-delay="250"
-          >
-            <!-- <a href="#" class="mr-15 link color-white">About</a>
-            <a href="#" class="mx-15 link color-white">Policy</a>-->
-            <!-- <a href="#" class="mx-15 link color-white">Terms</a> -->
-          </div>
+          ></div>
           <div
             class="mb-10 mb-lg-0 col-lg-auto order-0"
             data-aos-duration="500"
@@ -49,11 +45,7 @@
             data-aos="fade-down"
             data-aos-delay="0"
           >
-            <div class="color-white text-adaptive">
-              &copy; 2019 All rights reserved
-              <!-- Be sure to take a look at our <a href="#" class="link color-heading">Terms of Use</a> <br />
-              and <a href="#" class="link color-heading">Privacy Policy</a>-->
-            </div>
+            <div class="color-white text-adaptive">&copy; 2019 All rights reserved</div>
           </div>
         </div>
       </div>
