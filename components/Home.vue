@@ -12,13 +12,14 @@
           <h1 class="color-white">
             Truly decentralized oracle network
             <br />for decentralized
-            <div class="color-white text-left"   > <div
+        </h1>
+            <div class="color-white text-left"   > <h1
               style="display: inline-block"
               class="animated faster text-left"
               v-bind:class="classes"
-            >{{text}}</div>
+            >{{text}}</h1>
         </div>
-          </h1>
+         
         </div>
 
         <div class="col-lg-4">

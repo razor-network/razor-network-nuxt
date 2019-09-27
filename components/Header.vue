@@ -66,7 +66,7 @@
             <div class="col-md-4">
               <div class="logo color-white">
                 <nuxt-link to="/">
-                  <img src="../assets/images/logo3.svg" height="50" />
+                  <img alt = "logo" src="../assets/images/logo3.svg" height="50" />
                 </nuxt-link>
               </div>
             </div>
