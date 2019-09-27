@@ -11,16 +11,16 @@
           <div class="col-sm align-self-center">
             <h1
               class="color-white text-left"
-              data-aos-duration="500"
-              data-aos="fade-down"
-              data-aos-delay="0"
+
+
+
             >Let’s make staking accessible</h1>
           </div>
           <div
             class="col-sm text-right"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
+
+
           >
             <img class="w-240 h-480 aos-init aos-animate" src="../assets/images/razorapp1.png" />
           </div>
@@ -32,16 +32,16 @@
       <div class="container px-xl-0">
         <h2
           class="mt-25"
-          data-aos-duration="500"
-          data-aos="fade-down"
-          data-aos-delay="0"
+
+
+
         >Manage Assets</h2>
         <div class="row">
           <div
             class="col-sm align-self-center"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
+
+
           >
             <div
               class="color-heading text-adaptive text-left"
@@ -49,9 +49,9 @@
           </div>
           <div
             class="col-sm text-right"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
+
+
           >
             <img class="w-260 h-500" src="../assets/images/razorapp2.png" />
           </div>
@@ -63,11 +63,11 @@
       <div class="container px-xl-0">
         <h2
           class="mt-25 text-right text-white"
-          data-aos-duration="500"
-          data-aos="fade-down"
-          data-aos-delay="0"
+
+
+
         >Staking</h2>
-        <div class="row" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">
+        <div class="row"   >
           <div class="col-sm text-left">
             <img class="w-260 h-500" src="../assets/images/razorapp_status.png" />
           </div>
@@ -83,8 +83,8 @@
 
     <section class="content_1 bg-light pt-80 pb-80">
       <div class="container px-xl-0">
-        <h2 class="mt-25" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">Governance</h2>
-        <div class="row" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">
+        <h2 class="mt-25"   >Governance</h2>
+        <div class="row"   >
           <div class="col-sm text-left align-self-center">
             <div
               class="color-heading text-left"
@@ -102,20 +102,20 @@
         <div class="row justify-content-center">
           <div
             class="col-xl-8 col-lg-10 text-white"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
+
+
           >
             <h2>Coming soon!</h2>
           </div>
           <div class="col-xl-7 col-lg-9 col-md-10">
             <div
               class="mt-20 mb-60 f-22 color-heading text-adaptive description text-white"
-              data-aos-duration="500"
-              data-aos="fade-down"
+
+
               data-aos-delay="250"
             >Application developers interested in using the platform, and for partnership enquiries, please contact us.</div>
-            <div data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">
+            <div   data-aos-delay="500">
               <a href="https://forms.gle/soV7ZCjottt4Y2EP6" class="mb-30 btn lg action-1">Contact us</a>
             </div>
           </div>

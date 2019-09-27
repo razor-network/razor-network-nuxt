@@ -5,23 +5,18 @@
         <div class="row justify-content-between align-items-center lh-40 links">
           <div
             class="col-lg-4 col-sm-6 text-sm-right text-lg-left order-1 order-lg-0"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="250"
+
           ></div>
           <div
             class="mb-10 mb-lg-0 col-lg-auto order-0"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
           >
             <a href="#" class="logo link color-white">Razor Network</a>
           </div>
           <div
             class="col-lg-4 col-sm-6 text-sm-left text-lg-right order-2 order-lg-0"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="250"
+
+
           >
             <!-- <a href="#" class="mr-15 link color-main">Contacts</a> -->
             <a href="https://t.me/razornetwork" class="mx-15 link color-white">

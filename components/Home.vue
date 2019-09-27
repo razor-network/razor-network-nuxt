@@ -12,11 +12,12 @@
           <h1 class="color-white">
             Truly decentralized oracle network
             <br />for decentralized
-            <div
+            <h1 class="color-white text-left"   > <div
               style="display: inline-block"
               class="animated faster text-left"
               v-bind:class="classes"
             >{{text}}</div>
+        </h1>
           </h1>
         </div>
 
@@ -71,9 +72,9 @@ Traditionally this is done by using a centralized entities called “Oracles”.
         </a>-->
       </div>
 
-      <!-- <form class="row align-items-center justify-content-center no-gutters mt-70" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500" method="POST" action="form-handler.php"> -->
+      <!-- <form class="row align-items-center justify-content-center no-gutters mt-70"    method="POST" action="form-handler.php"> -->
       <form
-        class="row align-items-center justify-content-center no-gutters mt-70 mb-130 text-center"
+        class="row align-items-center justify-content-center no-gutters mt-70 mb-80 text-center"
         action="https://gmail.us20.list-manage.com/subscribe/post?u=32e904d07df33d9c4d5d756eb&amp;id=f3daba9fa6&c"
         method="post"
         id="mc-embedded-subscribe-form"
@@ -82,6 +83,10 @@ Traditionally this is done by using a centralized entities called “Oracles”.
         novalidate
       >
         <div class="col-xl-6 flex-wrap justify-content-center justify-content-md-between holder">
+            <div class="color-white op-3 text-center mb-10">
+                Subscribe to our newsletter for latest updates
+                <!-- <a href="#" class="link color-white">Terms of Service</a> -->
+            </div>
           <!-- <div id="mc_embed_signup_scroll" class="input-group input-group-sm mb-3"> -->
           <!-- <label for="mce-EMAIL">Subscribe</label> -->
           <input
@@ -107,12 +112,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
         </div>
       </form>
 
-      <div class="color-white op-3 text-center mt-35">
-        <span data-aos-duration="500" data-aos="fade-down" data-aos-delay="750">
-          Subscribe to our newsletter for latest updates
-          <!-- <a href="#" class="link color-white">Terms of Service</a> -->
-        </span>
-      </div>
+
     </div>
 
     <section class="content_1 bg-light pt-80 pb-80">
@@ -120,31 +120,33 @@ Traditionally this is done by using a centralized entities called “Oracles”.
         <div class="row justify-content-center">
           <div
             class="col-xl-7 col-lg-10 text-center"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
+
+
           >
             <h2 class="mt-25">Truly decentralized oracles are here</h2>
-            <div class="color-heading text-adaptive">
-              Blockchains do not have access to the data from outside the blockchain. Such data is necessary for operation of various decentralized applications. This problem is solved by oracles.
-              Razor is truly decentralized oracle platform offering a high degree of decentralization and economic security, which is crucial for decentralized finance applications.
-            </div>
+            <div class="color-heading text-adaptive mb-20">
+            Smart contracts do not have access to external data. Such data is necessary for operation of various decentralized applications. </div>
+            <div class="color-heading text-adaptive mb-20">
+
+Traditionally this is done by using a centralized servers called “Oracles”. But they are a single point of failure in otherwise decentralized applications and must be trustworthy. </div>
+<div class="color-heading text-adaptive mb-20">
+
+Razor Network is a decentralized oracle providing data to the smart contracts using a network of stakers. Razor is not only fast but also extremely robust and economically secure.
+</div>
 
             <div
-              data-aos-duration="500"
-              data-aos="fade-down"
-              data-aos-delay="0"
-              class="aos-init aos-animate"
+
             >
               <nuxt-link
                 :to="require('../static/papers/whitepaper.pdf')"
                 target="_blank"
-                class="mb-30 btn lg action-1"
+                class="mb-30 ml-20 mr-20 btn lg action-1"
               >Whitepaper</nuxt-link>
               <nuxt-link
                 :to="require('../static/papers/litepaper.pdf')"
                 target="_blank"
-                class="mb-30 btn lg action-1"
+                class="mb-30 ml-20 mr-20 btn lg action-1"
               >Technical Litepaper</nuxt-link>
 
               <!-- <div class="color-heading text-adaptive">Commercial License</div> -->
@@ -160,12 +162,12 @@ Traditionally this is done by using a centralized entities called “Oracles”.
           <div class="col-xl-10">
             <h2
               class="mb-45 small color-white"
-              data-aos-duration="500"
-              data-aos="fade-down"
-              data-aos-delay="0"
+
+
+
             >Features</h2>
             <div class="row justify-content-center">
-              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="750">
+              <div class="col-md-4 mb-50"  >
                 <i class="fas fa-users f-60 action-3 color-white"></i>
                 <div class="mt-20 mb-25 f-22 title color-white">Truly decentralized</div>
                 <div class="color-white text-adaptive">
@@ -174,7 +176,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                 </div>
               </div>
 
-              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="500">
+              <div class="col-md-4 mb-50"  >
                 <i class="fas fa-shield-alt f-60 color-white"></i>
                 <div class="mt-20 mb-25 f-22 title color-white">Secure</div>
                 <div class="color-white text-adaptive">
@@ -182,7 +184,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                   bribing and censorship attacks
                 </div>
               </div>
-              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="500">
+              <div class="col-md-4 mb-50"   >
                 <i class="fas fa-tachometer-alt f-60 color-white"></i>
                 <div class="mt-20 mb-25 f-22 title color-white">Fast</div>
                 <div class="color-white text-adaptive">
@@ -190,7 +192,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                   security and decentralization
                 </div>
               </div>
-              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="500">
+              <div class="col-md-4 mb-50"  >
                 <i class="fas fa-expand-arrows-alt f-60 color-white"></i>
                 <div class="mt-20 mb-25 f-22 title color-white">Scalable</div>
                 <div class="color-white text-adaptive">
@@ -198,7 +200,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                   blockchain with instant finality. Can serve data to other blockchains.
                 </div>
               </div>
-              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="250">
+              <div class="col-md-4 mb-50" >
                 <i class="fas fa-chart-pie f-60 action-3 color-white"></i>
                 <div class="mt-20 mb-25 f-22 title color-white">
                   Proof of Stake
@@ -219,18 +221,14 @@ Traditionally this is done by using a centralized entities called “Oracles”.
       <div class="container px-xl-0">
         <div class="row justify-content-center">
           <div
-            class="col-xl-8 col-lg-10"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+            class="col-xl-12 col-lg-10"
+
           >
             <h2>FAQs</h2>
           </div>
           <div
-            class="col-xl-7 col-lg-9 col-md-10"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+            class="col-xl-12 col-lg-9 col-md-10"
+
           >
             <FAQ />
           </div>
@@ -244,20 +242,16 @@ Traditionally this is done by using a centralized entities called “Oracles”.
         <div class="row justify-content-center">
           <div
             class="col-xl-8 col-lg-10"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
           >
             <h2>Get in touch!</h2>
           </div>
           <div class="col-xl-7 col-lg-9 col-md-10 color-white">
             <div
               class="mt-20 mb-60 f-22 text-adaptive description color-white"
-              data-aos-duration="500"
-              data-aos="fade-down"
-              data-aos-delay="250"
+
             >Application developers interested in using the platform, and for partnership enquiries, please contact us.</div>
-            <div data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">
+            <div   >
               <a href="https://forms.gle/soV7ZCjottt4Y2EP6" class="mb-30 btn lg action-1">Contact us</a>
               <!-- <div class="color-heading text-adaptive">Commercial License</div> -->
             </div>

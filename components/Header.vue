@@ -78,22 +78,20 @@
       <nav class="header_menu_2 transparent pt-30 pb-30 mt-20">
         <div class="container px-xl-0">
           <div class="row justify-content-between align-items-baseline">
-            <div class="col-md-4" data-aos-duration="500" data-aos="fade-down" data-aos-delay="750">
+            <div class="col-md-4">
               <div class="logo color-white">
                 <nuxt-link to="/">
                   <img src="../assets/images/logo3.svg" height="50px" />
                 </nuxt-link>
               </div>
             </div>
-            <!-- <span data-aos-duration="500" data-aos="fade-down" data-aos-delay="750" >
+            <!-- <span data-aos-duration="0"  data-aos-delay="750" >
 					<a  class=" link color-white" style = "padding: .5rem 1rem;" href="dashboard.html">Testnet</a>
 					<a   class=" link color-white" style = "padding: .5rem 1rem;" href="https://github.com/razor-network/whitepaper/raw/master/Razor%20Network%20Whitepaper%200.4.pdf">Whitepaper</a>
             </span>-->
             <div
               class="col-md-2 d-flex justify-content-end align-items-center"
-              data-aos-duration="500"
-              data-aos="fade-down"
-              data-aos-delay="750"
+
             >
               <!-- <a href="#" class="link color-white f-18 mx-15">Features</a>
 					<a href="#" class="link color-white f-18 mx-15">Team</a>

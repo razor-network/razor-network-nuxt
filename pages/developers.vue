@@ -8,17 +8,17 @@
       </div>
       <h1
         class="color-white text-center"
-        data-aos-duration="500"
-        data-aos="fade-down"
-        data-aos-delay="0"
+
+
+
       >
         Built by developers
         <br />for developers
       </h1>
       <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive">
         <span
-          data-aos-duration="500"
-          data-aos="fade-down"
+
+
           data-aos-delay="250"
         >Get access to outside data easily using our SDK.</span>
       </div>
@@ -28,9 +28,9 @@
         <div class="row justify-content-center">
           <div
             class="col-xl-7 col-lg-10 text-center"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
+
+
+
           >
             <h2 class="mt-25">Access price of Ether on Rinkeby today</h2>
             <div class="color-heading text-adaptive">
@@ -54,9 +54,9 @@
 </code>
             </pre>
             <div
-              data-aos-duration="500"
-              data-aos="fade-down"
-              data-aos-delay="0"
+
+
+
               class="aos-init aos-animate"
             >
               <a
