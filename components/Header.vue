@@ -16,7 +16,7 @@
           <!-- <a href="/" class="f-heading f-22 link color-main mb-20">Home</a> -->
         </div>
         <div>
-          <a class="f-heading f-22 link color-main mb-20" href="https://razorscan.io">Explore Testnet</a>
+          <a class="f-heading f-22 link color-main mb-20" href="https://razorscan.io">Testnet</a>
 
         </div>
         <div>
@@ -47,7 +47,7 @@
                         <a href="https://twitter.com/razor_network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-twitter"></i></a>
                         <a href="https://medium.com/razor-network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-medium"></i></a>
                         <a href="https://github.com/razor-network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-github"></i></a>
-                    
+
         </div>
       </div>
     </div>

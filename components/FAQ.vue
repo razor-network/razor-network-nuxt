@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div role = 'tablist'>
     <b-card no-body class="card">
       <b-card-header class="mb-0">
         <!-- not using b-button due to its inbuilt CSS -->
-        <button
+        <div
           href="#"
           v-b-toggle.oracle
           class="btn btn-link btn-test color-main"
-        >What is an Oracle?</button>
+        >What is an Oracle?</div>
       </b-card-header>
       <b-collapse block id="oracle" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>Blockchains do not have access to the data from outside the blockchain. Such data is necessary for operation of various decentralized applications. This problem is solved by an entity called an oracle.</b-card-body>
@@ -16,7 +16,7 @@
     <b-card no-body class="card">
       <b-card-header class="mb-0" id role="tab">
         <!-- not using b-button due to its inbuilt CSS -->
-        <button class="btn btn-link btn-test color-main" v-b-toggle.razor>What is Razor Network?</button>
+        <div class="btn btn-link btn-test color-main" v-b-toggle.razor>What is Razor Network?</div>
       </b-card-header>
       <b-collapse id="razor" accordion="my-accordion" role="tabpanel" class="animate">
         <b-card-body>
@@ -28,10 +28,10 @@
     <b-card no-body class="card">
       <b-card-header class="mb-0" id role="tab">
         <!-- not using b-button due to its inbuilt CSS -->
-        <button
+        <div
           class="btn btn-link color-main btn-test"
           v-b-toggle.blockchain
-        >Does Razor Network have its own blockchain?</button>
+        >Does Razor Network have its own blockchain?</div>
       </b-card-header>
       <b-collapse id="blockchain" accordion="my-accordion" role="tabpanel" class="animate">
         <b-card-body>
@@ -44,12 +44,12 @@
     </b-card>
     <b-card no-body class="card">
       <b-card-header class="mb-0 card-header" id role="tab">
-        <button
+        <div
           class="btn btn-link color-main btn-test"
           block
           href="#"
           v-b-toggle.token
-        >Does Razor Network have a Native Token?</button>
+        >Does Razor Network have a Native Token?</div>
       </b-card-header>
       <b-collapse id="token" accordion="my-accordion" role="tabpanel" class="animate">
         <b-card-body>
@@ -59,12 +59,12 @@
     </b-card>
     <b-card no-body class="card">
       <b-card-header class="mb-0 card-header" id role="tab">
-        <button
+        <div
           class="btn btn-link color-main btn-test"
           block
           href="#"
           v-b-toggle.schells
-        >How can I earn Schells?</button>
+        >How can I earn Schells?</div>
       </b-card-header>
       <b-collapse id="schells" accordion="my-accordion" role="tabpanel" class="animate">
         <b-card-body>
@@ -90,6 +90,9 @@ export default {
 @media (max-width: 768px) {
   .btn {
     line-height: 35px;
+  }
+  .cursorr {
+       cursor: pointer;
   }
 }
 </style>
