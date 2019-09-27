@@ -4,10 +4,10 @@
     <div class="container">
       <div class="mb-3 logo color-white d-block d-xl-none text-center logo_mobile">
         <a href="/">
-          <img src="../assets/images/logo3.svg" height="50px" />
+          <img src="../assets/images/logo3.svg" height="50" />
         </a>
       </div>
-      <div class="row" style="text-align: middle">
+      <div class="row" >
         <div class="col-lg-8">
           <h1 class="color-white">
             Truly decentralized oracle network

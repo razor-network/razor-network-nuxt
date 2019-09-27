@@ -6,6 +6,9 @@ export default {
   */
   head: {
     title: 'Razor Network',
+    htmlAttrs: {
+      lang: 'en'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,7 +18,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       // Google Fonts
-      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,500,700,800,900|Poppins:100,200,300,400,500,600,700,800,900&amp;subset=latin" },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,500,700,800,900|Poppins:100,200,300,400,500,600,700,800,900&amp;subset=latin' },
       // Font Awesome
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css' },
       // Atom dark theme
@@ -24,7 +27,7 @@ export default {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css' }
     ],
     script: [
-      { src: '/jquery.min.js', body: true },
+      { src: '/jquery.min.js', body: true }
     ]
   },
   /*
@@ -54,7 +57,7 @@ export default {
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt',
+    'bootstrap-vue/nuxt'
   ],
   /*
   ** Build configuration
@@ -63,16 +66,16 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    extend (config, ctx) {
       // Find the rule which contains a assets file extension
-      const assetsLoader = config.module.rules.find(rule => rule.test.test('.png'));
+      const assetsLoader = config.module.rules.find(rule => rule.test.test('.png'))
 
       // Overwrite the test regex and add `pdf`
-      assetsLoader.test = /\.(png|jpe?g|gif|svg|webp|pdf)$/i;
+      assetsLoader.test = /\.(png|jpe?g|gif|svg|webp|pdf)$/i
 
-      return config;
+      return config
     },
-    vendor: ["aos", "jquery"]
+    vendor: ['aos', 'jquery']
   },
   plugins: [{ src: '~/plugins/aos', ssr: false }, { src: '~/plugins/main', ssr: false }]
 }
