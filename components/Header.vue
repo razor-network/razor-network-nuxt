@@ -100,22 +100,26 @@
               <!-- <a href="#" class="link color-white f-18 mx-15">Features</a>
 					<a href="#" class="link color-white f-18 mx-15">Team</a>
               <a href="#" class="btn sm action-2 mx-15">Contact</a>-->
-              <a href="https://dashboard.razor.network/" class="link color-white f-18 mx-15">Testnet</a>
+              <a href="https://razorscan.io/#/dashboard" class="link color-white f-18 mx-15">Testnet</a>
               <nuxt-link to="/developers" class="link color-white f-18 mx-15">Developers</nuxt-link>
               <nuxt-link to="/mobile" class="link color-white f-18 mx-15">Mobile</nuxt-link>
               <a class="link color-white f-18 mx-15" href="https://docs.razor.network">Documentation</a>
 
-              <a href="https://github.com/razor-network" class="mx-15 link color-white">
-                <i class="fab fa-github fa-2x"></i>
+              <a href="https://t.me/razornetwork" class="mx-15 link color-white">
+                <i class="fab fa-telegram fa-2x"></i>
               </a>
               <a href="https://twitter.com/razor_network" class="mx-15 link color-white">
                 <i class="fab fa-twitter fa-2x"></i>
               </a>
-              <a href="https://t.me/razornetwork" class="mx-15 link color-white">
-                <i class="fab fa-telegram fa-2x"></i>
+              <a
+                href="https://medium.com/razor-network"
+                target="_blank"
+                class="mx-15 link color-white"
+              >
+                <i class="fab fa-medium fa-2x"></i>
               </a>
-              <a href="https://discord.gg/3kvXUye" class="mx-15 link color-white">
-                <i class="fab fa-discord fa-2x"></i>
+              <a href="https://github.com/razor-network" class="mx-15 link color-white">
+                <i class="fab fa-github fa-2x"></i>
               </a>
             </div>
           </div>
