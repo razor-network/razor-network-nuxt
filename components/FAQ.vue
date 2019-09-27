@@ -9,7 +9,7 @@
           class="btn btn-link btn-test color-main"
         >What is an Oracle?</div>
       </b-card-header>
-      <b-collapse block id="oracle" visible accordion="my-accordion" role="tabpanel">
+      <b-collapse  id="oracle" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>Blockchains do not have access to the data from outside the blockchain. Such data is necessary for operation of various decentralized applications. This problem is solved by an entity called an oracle.</b-card-body>
       </b-collapse>
     </b-card>
@@ -61,7 +61,7 @@
       <b-card-header class="mb-0 card-header" id role="tab">
         <div
           class="btn btn-link color-main btn-test"
-          block
+
           href="#"
           v-b-toggle.schells
         >How can I earn Schells?</div>

@@ -4,7 +4,7 @@
     <div class="container">
       <div class="mb-3 logo color-white d-block d-xl-none text-center logo_mobile">
         <a href="/">
-          <img src="../assets/images/logo3.svg" height="50" />
+          <img alt = "logo" src="../assets/images/logo3.svg" height="50" />
         </a>
       </div>
       <div class="row" >
@@ -22,7 +22,7 @@
         </div>
 
         <div class="col-lg-4">
-          <img src="../assets/images/razor-iso-3.svg" />
+          <img alt ="illustration" src="../assets/images/razor-iso-3.svg" />
         </div>
       </div>
       <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive">
