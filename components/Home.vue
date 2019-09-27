@@ -165,91 +165,49 @@ Traditionally this is done by using a centralized entities called “Oracles”.
               data-aos-delay="0"
             >Features</h2>
             <div class="row justify-content-center">
-              <div
-                class="col-md-4 mb-50"
-                data-aos-duration="500"
-                data-aos="fade-down"
-                data-aos-delay="250"
-              >
-                <i class="fas fa-chart-pie f-60 action-3 color-white"></i>
-                <div class="mt-20 mb-25 f-22 title color-white">
-                  Proof Of Stake
-                  <br />
-                </div>
-                <div
-                  class="color-white text-adaptive"
-                >Stakers are encouraged to behave in an honest and timely manner, or they risk losing their stake.</div>
-              </div>
-
-              <div
-                class="col-md-4 mb-50"
-                data-aos-duration="500"
-                data-aos="fade-down"
-                data-aos-delay="500"
-              >
-                <i class="fas fa-shield-alt f-60 action-3 color-white"></i>
-                <div class="mt-20 mb-25 f-22 title color-white">High economic security</div>
-                <div
-                  class="color-white text-adaptive"
-                >Every Staker in the Razor contributes to the economic security. Just like Ethereum or Bitcoin.</div>
-              </div>
-
-              <div
-                class="col-md-4 mb-50"
-                data-aos-duration="500"
-                data-aos="fade-down"
-                data-aos-delay="750"
-              >
+              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="750">
                 <i class="fas fa-users f-60 action-3 color-white"></i>
                 <div class="mt-20 mb-25 f-22 title color-white">Truly decentralized</div>
-                <div
-                  class="color-white text-adaptive"
-                >End-to-end decentralized oracle network with high resilience towards collusion and bribing attacks.</div>
+                <div class="color-white text-adaptive">
+                  End-to-end decentralized oracle network with no
+                  centralized bottlenecks
+                </div>
               </div>
-            </div>
-            <div class="row justify-content-center">
-              <div
-                class="col-md-4 mb-50"
-                data-aos-duration="500"
-                data-aos="fade-down"
-                data-aos-delay="250"
-              >
-                <i class="fas fa-gavel f-60 action-3 color-white"></i>
 
-                <!-- <i class="fas fa-briefcase f-60 action-3"></i> -->
+              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="500">
+                <i class="fas fa-shield-alt f-60 color-white"></i>
+                <div class="mt-20 mb-25 f-22 title color-white">Secure</div>
+                <div class="color-white text-adaptive">
+                  Dispute escalation and resolution mechanism makes it extremely resistant to collusion,
+                  bribing and censorship attacks
+                </div>
+              </div>
+              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="500">
+                <i class="fas fa-tachometer-alt f-60 color-white"></i>
+                <div class="mt-20 mb-25 f-22 title color-white">Fast</div>
+                <div class="color-white text-adaptive">
+                  Automated fetching of the data without compromising
+                  security and decentralization
+                </div>
+              </div>
+              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="500">
+                <i class="fas fa-expand-arrows-alt f-60 color-white"></i>
+                <div class="mt-20 mb-25 f-22 title color-white">Scalable</div>
+                <div class="color-white text-adaptive">
+                  Deployed on a highly scalable and asynchronous
+                  blockchain with instant finality. Can serve data to other blockchains.
+                </div>
+              </div>
+              <div class="col-md-4 mb-50" data-aos-duration="500" data-aos data-aos-delay="250">
+                <i class="fas fa-chart-pie f-60 action-3 color-white"></i>
                 <div class="mt-20 mb-25 f-22 title color-white">
-                  Onchain Governance
+                  Proof of Stake
                   <br />
                 </div>
-                <div
-                  class="color-white text-adaptive"
-                >The first and only oracle network with onchain governance. Razor can self adapt to changing environment and protect the network from various attacks.</div>
-              </div>
-
-              <div
-                class="col-md-4 mb-50"
-                data-aos-duration="500"
-                data-aos="fade-down"
-                data-aos-delay="500"
-              >
-                <i class="fas fa-expand-arrows-alt f-60 color-white"></i>
-                <div class="mt-20 mb-25 f-22 title color-white">Scalability</div>
-                <div
-                  class="color-white text-adaptive"
-                >Can be deployed on layer 2 solutions for practically infinite scaling.</div>
-              </div>
-
-              <div
-                class="col-md-4 mb-50"
-                data-aos-duration="500"
-                data-aos="fade-down"
-                data-aos-delay="750"
-              >
-                <i class="fas fa-calendar-alt f-60 action-3 color-white"></i>
-                <div class="mt-20 mb-25 f-22 title color-white">Stability over long term</div>
-                <div
-                  class="color-white text-adaptive"
-                >Razor can self adjust to changes in the environment and provide reliable results over long term.</div>
+                <div class="color-white text-adaptive">
+                  Secured by highly efficient Proof of Stake network
+                  with strict penalties for misbehaviour
+                </div>
               </div>
             </div>
           </div>
