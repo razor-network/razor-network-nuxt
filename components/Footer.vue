@@ -24,27 +24,22 @@
             data-aos-delay="250"
           >
             <!-- <a href="#" class="mr-15 link color-main">Contacts</a> -->
-            <a href="https://github.com/razor-network" class="mx-15 link color-white">
-              <i class="fab fa-2x fa-github"></i>
+            <a href="https://t.me/razornetwork" class="mx-15 link color-white">
+              <i class="fab fa-2x fa-telegram"></i>
             </a>
             <a href="https://twitter.com/razor_network" class="mx-15 link color-white">
               <i class="fab fa-2x fa-twitter"></i>
             </a>
-            <a href="https://t.me/razornetwork" class="mx-15 link color-white">
-              <i class="fab fa-2x fa-telegram"></i>
+            <a href="https://medium.com/razor-network" class="mx-15 link color-white">
+              <i class="fab fa-2x fa-medium"></i>
             </a>
-            <a href="https://discord.gg/3kvXUye" class="mx-15 link color-white">
-              <i class="fab fa-2x fa-discord"></i>
+            <a href="https://github.com/razor-network" class="mx-15 link color-white">
+              <i class="fab fa-2x fa-github"></i>
             </a>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div
-            class="mt-10 col-xl-4 col-lg-5 col-md-6 col-sm-8"
-            data-aos-duration="500"
-            data-aos="fade-down"
-            data-aos-delay="0"
-          >
+          <div class="mt-10 col-xl-4 col-lg-5 col-md-6 col-sm-8">
             <div class="color-white text-adaptive">&copy; 2019 All rights reserved</div>
           </div>
         </div>
