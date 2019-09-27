@@ -19,7 +19,7 @@
             data-aos="fade-down"
             data-aos-delay="0"
           >
-            <a href="#" class="logo link color-white">Razor network</a>
+            <a href="#" class="logo link color-white">Razor Network</a>
           </div>
           <div
             class="col-lg-4 col-sm-6 text-sm-left text-lg-right order-2 order-lg-0"

@@ -16,7 +16,8 @@
           <!-- <a href="/" class="f-heading f-22 link color-main mb-20">Home</a> -->
         </div>
         <div>
-          <nuxt-link to="/dashboard" class="f-heading f-22 link color-main mb-20">Testnet</nuxt-link>
+          <a class="f-heading f-22 link color-main mb-20" href="https://razorscan.io">Explore Testnet</a>
+
         </div>
         <div>
           <nuxt-link to="/developers" class="f-heading f-22 link color-main mb-20">Developers</nuxt-link>
