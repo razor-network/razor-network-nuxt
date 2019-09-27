@@ -23,7 +23,7 @@
           <nuxt-link to="/developers" class="f-heading f-22 link color-main mb-20">Developers</nuxt-link>
         </div>
         <div>
-          <nuxt-link to="/mobile" class="f-heading f-22 link color-main mb-20">Mobile</nuxt-link>
+          <!-- <nuxt-link to="/mobile" class="f-heading f-22 link color-main mb-20">Mobile</nuxt-link> -->
         </div>
         <div>
           <a
@@ -43,26 +43,11 @@
         <div><a href="#" class="f-12 link color-main op-7 text-uppercase sp-20 mb-20">Careers</a></div>-->
 
         <div class="socials mt-120">
-          <a
-            href="https://github.com/razor-network"
-            target="_blank"
-            class="link color-main f-18 mx-10"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://twitter.com/razor_network"
-            target="_blank"
-            class="link color-main f-18 mx-10"
-          >
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://t.me/razornetwork" target="_blank" class="link color-main f-18 mx-10">
-            <i class="fab fa-telegram"></i>
-          </a>
-          <a href="https://discord.gg/3kvXUye" target="_blank" class="link color-main f-18 mx-10">
-            <i class="fab fa-discord"></i>
-          </a>
+            <a href="https://t.me/razornetwork" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-telegram"></i></a>
+                        <a href="https://twitter.com/razor_network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-twitter"></i></a>
+                        <a href="https://medium.com/razor-network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-medium"></i></a>
+                        <a href="https://github.com/razor-network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-github"></i></a>
+                    
         </div>
       </div>
     </div>
@@ -96,9 +81,9 @@
               <!-- <a href="#" class="link color-white f-18 mx-15">Features</a>
 					<a href="#" class="link color-white f-18 mx-15">Team</a>
               <a href="#" class="btn sm action-2 mx-15">Contact</a>-->
-              <a href="https://razorscan.io/#/dashboard" class="link color-white f-18 mx-15">Testnet</a>
+              <a href="https://razorscan.io" class="link color-white f-18 mx-15">Testnet</a>
               <nuxt-link to="/developers" class="link color-white f-18 mx-15">Developers</nuxt-link>
-              <nuxt-link to="/mobile" class="link color-white f-18 mx-15">Mobile</nuxt-link>
+              <!-- <nuxt-link to="/mobile" class="link color-white f-18 mx-15">Mobile</nuxt-link> -->
               <a class="link color-white f-18 mx-15" href="https://docs.razor.network">Documentation</a>
 
               <a href="https://t.me/razornetwork" class="mx-15 link color-white">
