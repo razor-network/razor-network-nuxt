@@ -4,7 +4,6 @@
       <b-card-header class="mb-0">
         <!-- not using b-button due to its inbuilt CSS -->
         <div
-          href="#"
           v-b-toggle.oracle
           class="btn btn-link btn-test color-main"
         >What is an Oracle?</div>
@@ -46,8 +45,6 @@
       <b-card-header class="mb-0 card-header" id role="tab">
         <div
           class="btn btn-link color-main btn-test"
-          block
-          href="#"
           v-b-toggle.token
         >Does Razor Network have a Native Token?</div>
       </b-card-header>
@@ -62,7 +59,6 @@
         <div
           class="btn btn-link color-main btn-test"
 
-          href="#"
           v-b-toggle.schells
         >How can I earn Schells?</div>
       </b-card-header>
