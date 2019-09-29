@@ -19,11 +19,11 @@
               v-bind:class="classes"
             >{{text}}</h1>
         </div>
-         
+
         </div>
 
         <div class="col-lg-4">
-          <img alt ="illustration" src="../assets/images/razor-iso-3.svg" />
+          <img alt ="illustration" src="../assets/images/razor-iso-mini.svg" />
         </div>
       </div>
       <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive">
