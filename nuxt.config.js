@@ -45,13 +45,11 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  // plugins: [],
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+  buildModules: [],
   /*
   ** Nuxt.js modules
   */
@@ -66,7 +64,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       // Find the rule which contains a assets file extension
       const assetsLoader = config.module.rules.find(rule => rule.test.test('.png'))
 
@@ -77,5 +75,6 @@ export default {
     },
     vendor: ['aos', 'jquery']
   },
-  plugins: [{ src: '~/plugins/aos', ssr: false }, { src: '~/plugins/main', ssr: false }]
+  plugins: [{ src: '~/plugins/aos', ssr: false }, { src: '~/plugins/main', ssr: false }, { src: '~/plugins/highlight', ssr: false }]
+
 }

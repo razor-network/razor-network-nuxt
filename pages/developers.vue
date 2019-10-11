@@ -32,27 +32,33 @@
 
 
           >
-            <h2 class="mt-25">Access price of Ether on Rinkeby today</h2>
+            <h2 class="mt-25">Start using Razor on Rinkeby today</h2>
             <div class="color-heading text-adaptive">
-              Razor is live on rinkeby and is serving price of ETH/USD. Query the price easily by calling our contract as shown below.
+              Razor is live on rinkeby and is serving price of ETH/USD, BTC/USD, etc. Query the price easily by calling our contract as shown below.
               Currently querying the oracle is free of cost.
+              You can add new data URLs by going to <a href = 'https://razorscan.io' target="_blank">RazorScan</a>
+            <pre v-highlightjs class = "text-left"><code class="solidity ">
+pragma solidity ^0.5.7;
+interface Razor {
+    function getResult(uint256 id) external view returns (uint256);
+}
+
+contract Example {
+    Razor public constant razor =
+    Razor(0x73f1F92d27549be686AF027679186739dA82B691);
+
+    function getEthPrice() public view returns(uint256){
+        return (razor.getResult(1)); // insert jobId here
+    }
+
+    function getBtcPrice() public view returns(uint256){
+        return (razor.getResult(2));
+    }
+}
+                </code></pre>
+
             </div>
-            <pre class="text-left">
-                <code class="hljs solidity"><span class="hljs-keyword">pragma</span> <span class="hljs-keyword">solidity</span> ^0.5.7;
-<span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Razor</span> </span>{
-  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getPrice</span>(<span class="hljs-params"></span>) <span class="hljs-title">external</span> <span class="hljs-title">view</span> <span class="hljs-title">returns</span> (<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>)</span>;
-}
 
-<span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">Example</span> </span>{
-  Razor <span class="hljs-keyword">public</span> <span class="hljs-keyword">constant</span> razor =
-	Razor(<span class="hljs-number">0x2bDBA1258E570d32fb167AaC3D96239a48702484</span>);
-
-  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getEthPrice</span>(<span class="hljs-params"></span>) <span class="hljs-title">public</span> <span class="hljs-title">view</span> <span class="hljs-title">returns</span>(<span class="hljs-params"><span class="hljs-keyword">uint256</span></span>)</span>{
-   <span class="hljs-keyword">return</span> (razor.getPrice());
-  }
-}
-</code>
-            </pre>
             <div
 
 
@@ -60,10 +66,10 @@
               class="aos-init aos-animate"
             >
               <a
-                href="https://github.com/razor-network/contracts"
+                href="https://docs.razor.network/"
                 target="_blank"
                 class="mb-30 btn lg action-1"
-              >Check source code Github</a>
+              >Explore documentation</a>
               <!-- <a href="https://github.com/razor-network" target="_blank" class="mb-30 btn lg action-1">Github</a> -->
             </div>
           </div>
