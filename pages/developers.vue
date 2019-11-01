@@ -45,7 +45,7 @@ interface Razor {
 
 contract Example {
     Razor public constant razor =
-    Razor(0x73f1F92d27549be686AF027679186739dA82B691);
+    Razor(0x4Bcd81d77Bb9d7493F99742b49B072c09D548CB4);
 
     function getEthPrice() public view returns(uint256){
         return (razor.getResult(1)); // insert jobId here
