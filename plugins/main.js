@@ -3,11 +3,11 @@ const $ = require('jquery')
 
 $(document).ready(function () {
   $(window).resize(function () {
-        // resizeVideo();
+    // resizeVideo()
     showMenuBtn()
   })
   $(window).trigger('resize')
-    // open menu on mobile
+  // open menu on mobile
   function showMenuBtn () {
     if ($(window).width() < 1199.98) {
       $('.open_menu').addClass('d-block')
@@ -24,11 +24,11 @@ $(document).ready(function () {
     $('.navigation_mobile').addClass('opened')
   })
   $(
-        '.close_menu, header, section, footer, .navigation_mobile .inner a'
-    ).click(function (event) {
-      $('.navigation_mobile').removeClass('opened')
-    })
-    // Enable AOS plugin (blocks animations)
+    '.close_menu, header, section, footer, .navigation_mobile .inner a'
+  ).click(function (event) {
+    $('.navigation_mobile').removeClass('opened')
+  })
+  // Enable AOS plugin (blocks animations)
   if (typeof AOS !== 'undefined') {
     AOS.init({
       easing: 'ease-out-cubic',
@@ -40,39 +40,39 @@ $(document).ready(function () {
       }
     }, 200)
   }
-    // AJAX send form
-    // $("form").submit(function(event){
-    // 	event.preventDefault();
-    //
-    // 	var form = $(this),
-    // 		term = form.serialize(),
-    // 		url = form.attr("action"),
-    // 		required_fields_filled = true;
-    //
-    // 	form.find("input, textarea, select").each(function(){
-    // 		if($(this).prop("required") && $(this).val()==""){
-    // 			required_fields_filled = false;
-    // 		}
-    // 	});
-    //
-    // 	if(required_fields_filled){
-    // 		var posting = $.post(url, term);
-    // 		posting
-    // 		.done(function(data){
-    // 			if(data=="ok"){
-    // 				$(".alert-form-success").fadeIn(200).delay(5000).fadeOut(200);
-    // 			}else{
-    // 				$(".alert-form-error").fadeIn(200).delay(5000).fadeOut(200);
-    // 			}
-    // 		})
-    // 		.fail(function(){
-    // 			$(".alert-form-error").fadeIn(200).delay(5000).fadeOut(200);
-    // 		});
-    // 	}else{
-    // 		$(".alert-form-check-fields").fadeIn(200).delay(5000).fadeOut(200);
-    // 	}
-    // });
-    // Function to add style to form, when user clicks to input inside it
+  // AJAX send form
+  // $("form").submit(function(event){
+  // 	event.preventDefault()
+  //
+  // 	var form = $(this),
+  // 		term = form.serialize(),
+  // 		url = form.attr("action"),
+  // 		required_fields_filled = true
+  //
+  // 	form.find("input, textarea, select").each(function(){
+  // 		if($(this).prop("required") && $(this).val()==""){
+  // 			required_fields_filled = false
+  // 		}
+  // 	})
+  //
+  // 	if(required_fields_filled){
+  // 		var posting = $.post(url, term)
+  // 		posting
+  // 		.done(function(data){
+  // 			if(data=="ok"){
+  // 				$(".alert-form-success").fadeIn(200).delay(5000).fadeOut(200)
+  // 			}else{
+  // 				$(".alert-form-error").fadeIn(200).delay(5000).fadeOut(200)
+  // 			}
+  // 		})
+  // 		.fail(function(){
+  // 			$(".alert-form-error").fadeIn(200).delay(5000).fadeOut(200)
+  // 		})
+  // 	}else{
+  // 		$(".alert-form-check-fields").fadeIn(200).delay(5000).fadeOut(200)
+  // 	}
+  // })
+  // Function to add style to form, when user clicks to input inside it
   function focusForm (formID) {
     var form = $('#' + formID)
     if (form.hasClass('focused')) {
@@ -81,70 +81,76 @@ $(document).ready(function () {
       form.addClass('focused')
     }
   }
-    // Resize video, saving aspect ratio
-  function resizeVideo () {
-    var width, height, ratio
-    $('.video').each(function () {
-      ratio = $(this).data('ratio')
-      ratio = ratio.split('/')
-      ratio = ratio[0] / ratio[1]
-      width = $(this).width()
-      height = width / ratio
-      $(this).height(height)
-    })
-  }
-  resizeVideo()
-    // Play video
-  $('.video .play').click(function () {
-    var video = $(this)
-            .parent()
-            .parent()
-            .find('video')
-    $(this)
-            .closest('.poster')
-            .fadeOut(300, function () {
-              video.fadeIn(300, function () {
-                video[0].play()
-                video[0].onended = function () {
-                  $(this)
-                            .parent()
-                            .find('.poster')
-                            .delay(100)
-                            .fadeIn(300)
-                }
-              })
-            })
-  })
-    // Open video in popup
-  $('.js-play-popup-video').click(function (event) {
-    event.preventDefault()
-    var url = $(this).attr('href')
-    $('.video_popup .iframe_container').html(
-            '<iframe src="' + url + '" allowfullscreen></iframe>'
-        )
-    $('.video_popup, .overlay').fadeIn(300)
-  })
-    // Close video popup
-  $('.video_popup .close, .overlay').click(function (e) {
-    $('.video_popup, .overlay').fadeOut(300)
-    setTimeout(function () {
-      $('.video_popup .iframe_container').html('')
-    }, 300)
-  })
-    // Opening tabs
+  // Resize video, saving aspect ratio
+  // function resizeVideo () {
+  //   var width, height, ratio
+  //   $('.video').each(function () {
+  //     ratio = $(this).data('ratio')
+  //     ratio = ratio.split('/')
+  //     ratio = ratio[0] / ratio[1]
+  //     width = $(this).width()
+  //     height = width / ratio
+  //     $(this).height(height)
+  //   })
+  // }
+  // resizeVideo()
+  // Play video
+  // $('.video .play').click(function () {
+  //   var video = $(this)
+  //     .parent()
+  //     .parent()
+  //     .find('video')
+  //   $(this)
+  //     .closest('.poster')
+  //     .fadeOut(300, function () {
+  //       video.fadeIn(300, function () {
+  //         video[0].play()
+  //         video[0].onended = function () {
+  //           $(this)
+  //             .parent()
+  //             .find('.poster')
+  //             .delay(100)
+  //             .fadeIn(300)
+  //         }
+  //       })
+  //     })
+  // })
+  // Open video in popup
+  // $('.js-play-popup-video').click(function (event) {
+  //   event.preventDefault()
+  //   var url = $(this).attr('href')
+  //   $('.video_popup .iframe_container').html(
+  //     '<iframe src="' + url + '" allowfullscreen></iframe>'
+  //   )
+  //   $('.video_popup, .overlay').fadeIn(300)
+  // })
+  // // Close video popup
+  // $('.video_popup .close, .overlay').click(function (e) {
+  //   $('.video_popup, .overlay').fadeOut(300)
+  //   setTimeout(function () {
+  //     $('.video_popup .iframe_container').html('')
+  //   }, 300)
+  // })
+  // Opening tabs
   function openTab (tab) {
     if (tab.hasClass('opened')) {
-      $('.tab_text').animate({ height: 0 }, 300)
+      $('.tab_text').animate({
+        height: 0
+      }, 300)
       tab.removeClass('opened')
     } else {
       var nextTabHeight = tab
-                .next()
-                .find('div')
-                .outerHeight(true)
+        .next()
+        .find('div')
+        .outerHeight(true)
       $('.tab_text')
-                .not(tab.next())
-                .animate({ height: 0 }, 300)
-      tab.next().animate({ height: nextTabHeight }, 300)
+        .not(tab.next())
+        .animate({
+          height: 0
+        }, 300)
+      tab.next().animate({
+        height: nextTabHeight
+      }, 300)
       $('.tab_opener').removeClass('opened')
       tab.addClass('opened')
     }
@@ -156,18 +162,21 @@ $(document).ready(function () {
     $('.tab_opener').each(function () {
       if ($(this).hasClass('opened')) {
         $(this)
-                    .removeClass('opened')
-                    .trigger('click')
+          .removeClass('opened')
+          .trigger('click')
       }
     })
   }
-    // Copy text from block
+  // Copy text from block
   if ($('#copy_from_me').length > 0) {
     function copyStringToClipboard (str) {
       var el = document.createElement('textarea')
       el.value = str
       el.setAttribute('readonly', '')
-      el.style = { position: 'absolute', left: '-9999px' }
+      el.style = {
+        position: 'absolute',
+        left: '-9999px'
+      }
       document.body.appendChild(el)
       el.select()
       document.execCommand('copy')
@@ -177,7 +186,7 @@ $(document).ready(function () {
       copyStringToClipboard($('#copy_from_me').text())
     })
   }
-    // Add mask to inputs in Forms
+  // Add mask to inputs in Forms
   if ($('.js-card-mask').length > 0) {
     $('.js-card-mask').mask('9999 9999 9999 9999')
   }
@@ -187,45 +196,46 @@ $(document).ready(function () {
   if ($('.js-cvv-mask').length > 0) {
     $('.js-cvv-mask').mask('999')
   }
-    // Disable / enable blocks in Form 13
+  // Disable / enable blocks in Form 13
   $('.form_13 input[type=radio]').change(function () {
     var choosenBlock = $('.form_13 input[type=radio]:checked').closest(
-            '.js-form-block'
-        )
+      '.js-form-block'
+    )
     $('.js-form-block').removeClass('active')
     choosenBlock.addClass('active')
   })
-    // Google maps initialisation
+  // Google maps initialisation
   if ($('.js-google-map').length > 0) {
     $('.js-google-map').each(function () {
       var map
       var map_container = this
       if ($(map_container).attr('data-coords') != undefined) {
         var coords = $(map_container)
-                    .attr('data-coords')
-                    .replace(' ', '')
-                    .split(',')
+          .attr('data-coords')
+          .replace(' ', '')
+          .split(',')
         coords = new google.maps.LatLng(
-                    parseFloat(coords[0]),
-                    parseFloat(coords[1])
-                )
+          parseFloat(coords[0]),
+          parseFloat(coords[1])
+        )
       } else {
         var coords = new google.maps.LatLng(38.89771, -77.03653)
       }
       if (
-                $(map_container).attr('data-marker') != undefined &&
-                $(map_container).attr('data-marker-size') != undefined
-            ) {
+        $(map_container).attr('data-marker') != undefined &&
+        $(map_container).attr('data-marker-size') != undefined
+      ) {
         var marker_image = $(map_container).attr('data-marker')
         var marker_size = $(map_container)
-                    .attr('data-marker-size')
-                    .split('*')
+          .attr('data-marker-size')
+          .split('*')
       }
       if ($(map_container).attr('data-zoom') != undefined) {
         var zoom = parseInt($(map_container).attr('data-zoom'))
       } else {
         var zoom = 10
       }
+
       function init () {
         var mapOptions = {
             zoom: zoom,
@@ -236,14 +246,14 @@ $(document).ready(function () {
           var marker_icon = {
               url: marker_image,
               scaledSize: new google.maps.Size(
-                            marker_size[0],
-                            marker_size[1]
-                        ),
+                marker_size[0],
+                marker_size[1]
+              ),
               origin: new google.maps.Point(0, 0),
               anchor: new google.maps.Point(
-                            marker_size[0] / 2,
-                            marker_size[1]
-                        )
+                marker_size[0] / 2,
+                marker_size[1]
+              )
             },
             marker = new google.maps.Marker({
               position: coords,
@@ -255,10 +265,10 @@ $(document).ready(function () {
       init()
     })
   }
-    /*
-      Sliders
+  /*
+    Sliders
   */
-    // Slider in Header 8
+  // Slider in Header 8
   if ($('.header_8 .slider').length > 0) {
     $('.header_8 .slider').slick({
       dots: true,
@@ -269,17 +279,15 @@ $(document).ready(function () {
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 20000,
-      responsive: [
-        {
-          breakpoint: 481,
-          settings: {
-            arrows: false
-          }
+      responsive: [{
+        breakpoint: 481,
+        settings: {
+          arrows: false
         }
-      ]
+      }]
     })
   }
-    // Slider in Header 19
+  // Slider in Header 19
   if ($('.header_19 .slider').length > 0) {
     $('.header_19 .slider').slick({
       dots: true,
@@ -292,15 +300,13 @@ $(document).ready(function () {
       autoplaySpeed: 20000,
       vertical: true,
       verticalSwiping: true,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            vertical: false,
-            verticalSwiping: false
-          }
+      responsive: [{
+        breakpoint: 1200,
+        settings: {
+          vertical: false,
+          verticalSwiping: false
         }
-      ]
+      }]
     })
   }
   if ($('.content_22 .slider').length > 0) {
@@ -322,15 +328,13 @@ $(document).ready(function () {
       arrows: false,
       fade: true,
       asNavFor: '.content_23_slider_nav',
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            asNavFor: null,
-            dots: true
-          }
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          asNavFor: null,
+          dots: true
         }
-      ]
+      }]
     })
     $('.content_23_slider_nav').slick({
       slidesToShow: 4,
@@ -340,15 +344,13 @@ $(document).ready(function () {
       arrows: false,
       vertical: true,
       focusOnSelect: true,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            vertical: false,
-            slidesToShow: 4
-          }
+      responsive: [{
+        breakpoint: 1200,
+        settings: {
+          vertical: false,
+          slidesToShow: 4
         }
-      ]
+      }]
     })
   }
   if ($('.content_27 .slider').length > 0) {
@@ -359,13 +361,12 @@ $(document).ready(function () {
       speed: 300,
       slidesToShow: 2,
       slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 1
-          }
-        },
+      responsive: [{
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 1
+        }
+      },
         {
           breakpoint: 620,
           settings: {
@@ -399,14 +400,12 @@ $(document).ready(function () {
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 20000,
-      responsive: [
-        {
-          breakpoint: 991,
-          settings: {
-            arrows: false
-          }
+      responsive: [{
+        breakpoint: 991,
+        settings: {
+          arrows: false
         }
-      ]
+      }]
     })
   }
   if ($('.feature_29 .slider').length > 0) {
@@ -419,15 +418,13 @@ $(document).ready(function () {
       vertical: true,
       verticalSwiping: true,
       adaptiveHeight: true,
-      responsive: [
-        {
-          breakpoint: 767,
-          settings: {
-            vertical: false,
-            verticalSwiping: false
-          }
+      responsive: [{
+        breakpoint: 767,
+        settings: {
+          vertical: false,
+          verticalSwiping: false
         }
-      ]
+      }]
     })
   }
   if ($('.feature_31 .slider').length > 0) {
@@ -439,15 +436,13 @@ $(document).ready(function () {
       slidesToScroll: 1,
       vertical: true,
       verticalSwiping: true,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            vertical: false,
-            verticalSwiping: false
-          }
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          vertical: false,
+          verticalSwiping: false
         }
-      ]
+      }]
     })
   }
   if ($('.form_4 .slider').length > 0) {
@@ -503,11 +498,15 @@ $(document).ready(function () {
     $('.pricing_table_6 .slider').on('beforeChange', function () {
       if (toggle.hasClass('switched')) {
         toggle.removeClass('switched')
-        togglePin.animate({ left: 3 }, 200)
+        togglePin.animate({
+          left: 3
+        }, 200)
       } else {
         var animate_to = toggle.width() - togglePin.outerWidth(true) - 3
         toggle.addClass('switched')
-        togglePin.animate({ left: animate_to }, 200)
+        togglePin.animate({
+          left: animate_to
+        }, 200)
       }
     })
     toggle.click(function () {

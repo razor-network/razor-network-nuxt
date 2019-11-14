@@ -26,6 +26,7 @@
           <img alt ="illustration" src="../assets/images/razor-iso-mini.svg" />
         </div>
       </div>
+      
       <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive">
         <span>
           Razor Network connects smart contracts with data in fast and secure way.

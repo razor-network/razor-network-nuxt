@@ -12,8 +12,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Truly decentralized oracle network for Synthetic assets' },
-      { name: 'keywords', content: 'razor, network, blockchain, oracle, network' }
+      { hid: 'description', name: 'description', content: 'Truly decentralized oracle network for decentralized finance' },
+      { name: 'keywords', content: 'razor, network, blockchain, oracle, network, ethereum' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
