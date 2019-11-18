@@ -32,7 +32,7 @@
 
 
           >
-            <h2 class="mt-25">Start using Razor on Rinkeby today</h2>
+            <h2 class="mt-25">Start using Razor on Görli today</h2>
             <div class="color-heading text-adaptive">
               Razor is live on rinkeby and is serving price of ETH/USD, BTC/USD, etc. Query the price easily by calling our contract as shown below.
               Currently querying the oracle is free of cost.

@@ -26,7 +26,7 @@
           <img alt ="illustration" src="../assets/images/razor-iso-mini.svg" />
         </div>
       </div>
-      
+
       <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive">
         <span>
           Razor Network connects smart contracts with data in fast and secure way.
@@ -121,7 +121,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
       <div class="container px-xl-0">
         <div class="row justify-content-center">
           <div
-            class="col-xl-7 col-lg-10 text-center"
+            class="col-lg-8 text-center"
 
 
 
@@ -143,12 +143,17 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
               <a
                 href="/whitepaper.pdf"
                 target="_blank"
-                class="mb-30 ml-20 mr-20 btn lg action-1"
+                class="mb-30 ml-20 mr-20 btn md action-1"
               >Whitepaper</a>
               <a
-                href="/litepaper.pdf"
+                href="https://docs.razor.network/explainer/"
                 target="_blank"
-                class="mb-30 ml-20 mr-20 btn lg action-1"
+                class="mb-30 ml-20 mr-20 btn md action-1"
+              >Explainer</a>
+              <a
+              href="/litepaper.pdf"
+              target="_blank"
+              class="mb-30 ml-20 mr-20 btn md action-1"
               >Technical Litepaper</a>
 
               <!-- <div class="color-heading text-adaptive">Commercial License</div> -->
