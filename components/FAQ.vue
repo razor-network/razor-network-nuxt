@@ -68,6 +68,21 @@
         </b-card-body>
       </b-collapse>
     </b-card>
+    <b-card no-body class="card">
+      <b-card-header class="mb-0 card-header" id role="tab">
+        <div
+          class="btn btn-link color-main btn-test"
+
+          v-b-toggle.explainer
+        >I have more questions
+</div>
+      </b-card-header>
+      <b-collapse id="explainer" accordion="my-accordion" role="tabpanel" class="animate">
+        <b-card-body>
+          <b-card-text>For a detailed introduction, please check <a href="https://docs.razor.network/explainer/">Explainer</a> or join our <a href="https://t.me/razornetwork">telegram</a></b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
   </div>
 </template>
 
