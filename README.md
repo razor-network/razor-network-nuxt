@@ -1,6 +1,6 @@
-# razor-network
+# Razor network website
 
-> My badass Nuxt.js project
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e96f0420-3f03-4351-acf7-a0a581af4130/deploy-status)](https://app.netlify.com/sites/razor-nuxt/deploys)
 
 ## Build Setup
 
