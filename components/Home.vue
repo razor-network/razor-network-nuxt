@@ -140,21 +140,25 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
             <div
 
             >
-              <a
+              <!-- <a
                 href="/whitepaper.pdf"
                 target="_blank"
                 class="mb-30 ml-20 mr-20 btn md action-1"
-              >Whitepaper</a>
+              >Whitepaper</a> -->
+              <nuxt-link to="/whitepaper" class="mb-30 ml-20 mr-20 btn md action-1">Whitepaper</nuxt-link>
+
               <a
                 href="https://docs.razor.network/explainer/"
                 target="_blank"
                 class="mb-30 ml-20 mr-20 btn md action-1"
               >Explainer</a>
-              <a
+              <!-- <a
               href="/litepaper.pdf"
               target="_blank"
               class="mb-30 ml-20 mr-20 btn md action-1"
-              >Technical Litepaper</a>
+              >Technical Litepaper</a> -->
+              <nuxt-link to="/litepaper" class="mb-30 ml-20 mr-20 btn md action-1">Technical Litepaper</nuxt-link>
+
 
               <!-- <div class="color-heading text-adaptive">Commercial License</div> -->
             </div>
