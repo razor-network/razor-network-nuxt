@@ -11,11 +11,11 @@
             <div class="col-lg-8">
                 <h1 class="color-white">
                     Truly decentralized oracle network
-                    <br />for decentralized
+                    <!-- <br />for decentralized -->
                 </h1>
-                <div class="color-white text-left">
+                <!-- <div class="color-white text-left">
                     <h1 style="display: inline-block" class="animated faster text-left" v-bind:class="classes">{{text}}</h1>
-                </div>
+                </div> -->
 
             </div>
 
@@ -205,7 +205,7 @@ export default {
     },
     data() {
         return {
-            text: "Finance",
+            text: "Networks",
             dataText: [
                 "Finance",
                 "Prediction markets",
@@ -243,10 +243,10 @@ export default {
         }
     },
     mounted: function() {
-        this.changeClass();
-        setTimeout(() => {
-            this.change();
-        }, 600);
+        // this.changeClass();
+        // setTimeout(() => {
+            // this.change();
+        // }, 600);
     }
 };
 </script>
