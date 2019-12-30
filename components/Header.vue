@@ -33,9 +33,9 @@
             <div>
                 <a class="f-heading f-22 link color-main mb-20" target="_blank" href="https://razorscan.io">RazorScan</a>
             </div>
-            <div>
+            <!-- <div>
                 <a class="f-heading f-22 link color-main mb-20" target="_blank" href="https://deltaone.finance">DeltaOne</a>
-            </div>
+            </div> -->
             <!-- <div><a href="#" class="f-heading f-22 link color-main mb-20">Featured</a></div>
 		<div><a href="#" class="f-heading f-22 link color-main mb-20">Designers</a></div>
         <div><a href="#" class="f-heading f-22 link color-main mb-40">Team</a></div>-->
@@ -105,10 +105,10 @@
          <a class="dropdown-item" href="#">Something else here</a>
        </div>
      </li> -->
-                        <b-nav-item-dropdown text="Products" class="link color-white f-18 mx-15">
-                            <b-dropdown-item target="_blank" href="https://razorscan.io">RazorScan</b-dropdown-item>
-                            <b-dropdown-item target="_blank" href="https://deltaone.finance">DeltaOne</b-dropdown-item>
-                        </b-nav-item-dropdown>
+                        <!-- <b-nav-item-dropdown text="Products" class="link color-white f-18 mx-15"> -->
+                            <!-- <b-dropdown-item target="_blank" href="https://razorscan.io">RazorScan</b-dropdown-item> -->
+                            <!-- <b-dropdown-item target="_blank" href="https://deltaone.finance">DeltaOne</b-dropdown-item> -->
+                        <!-- </b-nav-item-dropdown> -->
                         <nuxt-link to="/developers" class="link color-white f-18 mx-15">Developers</nuxt-link>
                         <!-- <nuxt-link to="/mobile" class="link color-white f-18 mx-15">Mobile</nuxt-link> -->
                         <a class="link color-white f-18 mx-15" href="https://docs.razor.network">Documentation</a>

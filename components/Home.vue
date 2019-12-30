@@ -208,7 +208,7 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
                 <div class="mt-20 mb-25 f-22 title color-white">Scalable</div>
                 <div class="color-white text-adaptive">
                   Deployed on a highly scalable and asynchronous
-                  blockchain with instant finality. Can serve data to other blockchains.
+                  network with instant finality. Can serve data to other networks.
                 </div>
               </div>
               <div class="col-md-4 mb-50" >
@@ -263,7 +263,7 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
 
             >Application developers interested in using the platform, and for partnership enquiries, please contact us.</div>
             <div   >
-              <a href="https://forms.gle/soV7ZCjottt4Y2EP6" class="mb-30 btn lg action-1">Contact us</a>
+              <a href="mailto:hello@razor.network" class="mb-30 btn lg action-1">Contact us</a>
               <!-- <div class="color-heading text-adaptive">Commercial License</div> -->
             </div>
           </div>

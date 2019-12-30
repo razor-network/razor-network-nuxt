@@ -9,7 +9,7 @@
         >What is an Oracle?</div>
       </b-card-header>
       <b-collapse  id="oracle" visible accordion="my-accordion" role="tabpanel">
-        <b-card-body>Blockchains do not have access to the data from outside the blockchain. Such data is necessary for operation of various decentralized applications. This problem is solved by an entity called an oracle.</b-card-body>
+        <b-card-body>Oracle is an entity which feeds external data to the decentralized networks.</b-card-body>
       </b-collapse>
     </b-card>
     <b-card no-body class="card">
@@ -30,18 +30,18 @@
         <div
           class="btn btn-link color-main btn-test"
           v-b-toggle.blockchain
-        >Does Razor Network have its own blockchain?</div>
+        >Does Razor Network have its own Network?</div>
       </b-card-header>
       <b-collapse id="blockchain" accordion="my-accordion" role="tabpanel" class="animate">
         <b-card-body>
           <b-card-text>
             Razor Network is a Proof of Stake consensus algorithm which achieves consensus on oracle values by Truth-by-consensus algorithm.
-            Razor Network currently runs directly on Ethereum public networks. In the future, it will run on its own Proof of Stake blockchain with Honey Badger BFT Consensus algorithm.
+            Razor Network currently runs directly on Ethereum public networks. In the future, it will run on its own Proof of Stake Network.
           </b-card-text>
         </b-card-body>
-      </b-collapse>
+    </b-collapse>
     </b-card>
-    <b-card no-body class="card">
+    <!-- <b-card no-body class="card">
       <b-card-header class="mb-0 card-header" id role="tab">
         <div
           class="btn btn-link color-main btn-test"
@@ -53,8 +53,8 @@
           <b-card-text>Schell is the native ERC20 utility token used in Razor Network for staking purposes. It has the abbreviation SCH and symbol ʂ.</b-card-text>
         </b-card-body>
       </b-collapse>
-    </b-card>
-    <b-card no-body class="card">
+    </b-card> -->
+    <!-- <b-card no-body class="card">
       <b-card-header class="mb-0 card-header" id role="tab">
         <div
           class="btn btn-link color-main btn-test"
@@ -67,7 +67,7 @@
           <b-card-text>Schells can be earned by becoming a staker in the network. Schells are earned in the form of block rewards in the network.</b-card-text>
         </b-card-body>
       </b-collapse>
-    </b-card>
+    </b-card> -->
     <b-card no-body class="card">
       <b-card-header class="mb-0 card-header" id role="tab">
         <div
