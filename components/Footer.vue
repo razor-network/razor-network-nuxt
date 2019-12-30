@@ -5,7 +5,7 @@
         <div class="row justify-content-between align-items-center lh-40 links">
 
           <div
-            class="col-lg-4 col-sm-4 text-sm-left text-lg-left order-2 order-lg-0">
+            class="col-lg-4 col-sm-4 text-sm-left text-lg-left">
             <div class="color-white">Razor Network Pte Ltd</div>
             <div class="color-white">160 Robinson Road,</div>
             <div class="color-white">#14-04 Singapore Business Federation Centre, </div>
