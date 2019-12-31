@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h1 class="color-white">
-                    Truly decentralized oracle network
+                    Truly decentralized data verification
                     <!-- <br />for decentralized -->
                 </h1>
                 <!-- <div class="color-white text-left">
@@ -89,7 +89,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                         Traditionally this is done by using a centralized servers called “Oracles”. But they are a single point of failure in otherwise decentralized applications and must be trustworthy. </div>
                     <div class="color-heading text-adaptive mb-20">
 
-                        Razor Network is a decentralized oracle providing data to the smart contracts using a network of stakers. Razor is not only fast but also extremely robust and economically secure.
+                        Razor Network is a decentralized oracle providing verified data to the smart contracts. Razor is not only fast but also extremely robust and secure.
                     </div>
 
                     <!-- <div>
@@ -138,7 +138,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                             <div class="mt-20 mb-25 f-22 title color-white">Scalable</div>
                             <div class="color-white text-adaptive">
                                 Deployed on a highly scalable and asynchronous
-                                network with instant finality. Can serve data to other networks.
+                                network. Can serve data to other networks.
                             </div>
                         </div>
                         <div class="col-md-4 mb-50">

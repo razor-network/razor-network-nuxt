@@ -9,7 +9,7 @@
         >What is an Oracle?</div>
       </b-card-header>
       <b-collapse  id="oracle" visible accordion="my-accordion" role="tabpanel">
-        <b-card-body>Oracle is an entity which feeds external data to the decentralized networks.</b-card-body>
+        <b-card-body>Oracle is an entity which feeds verified external data to the decentralized networks.</b-card-body>
       </b-collapse>
     </b-card>
     <b-card no-body class="card">
@@ -19,7 +19,7 @@
       </b-card-header>
       <b-collapse id="razor" accordion="my-accordion" role="tabpanel" class="animate">
         <b-card-body>
-          <b-card-text>Razor Network is truly decentralized oracle platform offering a high degree of decentralization and economic security.</b-card-text>
+          <b-card-text>Razor Network is an oracle platform offering a high degree of decentralization and economic security.</b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -68,7 +68,7 @@
         </b-card-body>
       </b-collapse>
     </b-card> -->
-    <b-card no-body class="card">
+    <!-- <b-card no-body class="card">
       <b-card-header class="mb-0 card-header" id role="tab">
         <div
           class="btn btn-link color-main btn-test"
@@ -82,7 +82,7 @@
           <b-card-text>For a detailed introduction, please check <a href="https://docs.razor.network/explainer/">Explainer</a> or join our <a href="https://t.me/razornetwork">telegram</a></b-card-text>
         </b-card-body>
       </b-collapse>
-    </b-card>
+    </b-card> -->
   </div>
 </template>
 
