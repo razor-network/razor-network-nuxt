@@ -35,8 +35,11 @@
       <b-collapse id="blockchain" accordion="my-accordion" role="tabpanel" class="animate">
         <b-card-body>
           <b-card-text>
-            Razor Network is a Proof of Stake consensus algorithm which achieves consensus on oracle values by Truth-by-consensus algorithm.
-            Razor Network currently runs directly on public networks. In the future, it will run on its own Proof of Stake Network.
+            Razor Network is a network
+            <!-- Proof of Stake consensus 
+            algorithm  -->
+            which achieves consensus on oracle values by Truth-by-consensus algorithm.
+            Razor Network currently runs directly on public networks. In the future, it will run on its own Network.
           </b-card-text>
         </b-card-body>
     </b-collapse>

@@ -141,7 +141,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                                 network. Can serve data to other networks.
                             </div>
                         </div>
-                        <div class="col-md-4 mb-50">
+                        <!-- <div class="col-md-4 mb-50">
                             <i class="fas fa-chart-pie f-60 action-3 color-white"></i>
                             <div class="mt-20 mb-25 f-22 title color-white">
                                 Proof of Stake
@@ -149,9 +149,9 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                             </div>
                             <div class="color-white text-adaptive">
                                 Secured by highly efficient Proof of Stake network
-                                <!-- with strict penalties for misbehaviour -->
+                            with strict penalties for misbehaviour 
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
