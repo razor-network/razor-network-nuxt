@@ -20,7 +20,7 @@
             </div>
 
             <div class="col-lg-4">
-                <img alt="illustration" src="../assets/images/razor-iso-mini.svg" />
+                <!-- <img alt="illustration" src="../assets/images/razor-iso-mini.svg" /> -->
             </div>
         </div>
 
@@ -76,7 +76,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
 
 
     </div>
-
+<!--
     <section class="content_1 bg-light pt-80 pb-80">
         <div class="container px-xl-0">
             <div class="row justify-content-center">
@@ -97,7 +97,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                         <nuxt-link to="/whitepaper" class="mb-30 ml-20 mr-20 btn md action-1">Whitepaper</nuxt-link>
                         <a href="https://docs.razor.network/explainer/" target="_blank" class="mb-30 ml-20 mr-20 btn md action-1">Explainer</a>
                         <nuxt-link to="/litepaper" class="mb-30 ml-20 mr-20 btn md action-1">Technical Summary</nuxt-link>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -149,9 +149,9 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                             </div>
                             <div class="color-white text-adaptive">
                                 Secured by highly efficient Proof of Stake network
-                            with strict penalties for misbehaviour 
+                            with strict penalties for misbehaviour
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Call to Action 1 -->
 
     <section class="call_to_action_1 bg-dark pt-110 pb-95 text-center color-white">

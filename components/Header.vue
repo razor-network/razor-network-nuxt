@@ -22,16 +22,16 @@
 
         </div> -->
             <div>
-                <nuxt-link to="/developers" class="f-heading f-22 link color-main mb-20">Developers</nuxt-link>
+                <!-- <nuxt-link to="/developers" class="f-heading f-22 link color-main mb-20">Developers</nuxt-link> -->
             </div>
             <div>
                 <!-- <nuxt-link to="/mobile" class="f-heading f-22 link color-main mb-20">Mobile</nuxt-link> -->
             </div>
             <div>
-                <a href="https://docs.razor.network" class="f-heading f-22 link color-main mb-20">Documentation</a>
+                <!-- <a href="https://docs.razor.network" class="f-heading f-22 link color-main mb-20">Documentation</a> -->
             </div>
             <div>
-                <a class="f-heading f-22 link color-main mb-20" target="_blank" href="https://razorscan.io">RazorScan</a>
+                <!-- <a class="f-heading f-22 link color-main mb-20" target="_blank" href="https://razorscan.io">RazorScan</a> -->
             </div>
             <!-- <div>
                 <a class="f-heading f-22 link color-main mb-20" target="_blank" href="https://deltaone.finance">DeltaOne</a>
@@ -109,9 +109,9 @@
                             <!-- <b-dropdown-item target="_blank" href="https://razorscan.io">RazorScan</b-dropdown-item> -->
                             <!-- <b-dropdown-item target="_blank" href="https://deltaone.finance">DeltaOne</b-dropdown-item> -->
                         <!-- </b-nav-item-dropdown> -->
-                        <nuxt-link to="/developers" class="link color-white f-18 mx-15">Developers</nuxt-link>
+                        <!-- <nuxt-link to="/developers" class="link color-white f-18 mx-15">Developers</nuxt-link> -->
                         <!-- <nuxt-link to="/mobile" class="link color-white f-18 mx-15">Mobile</nuxt-link> -->
-                        <a class="link color-white f-18 mx-15" href="https://docs.razor.network">Documentation</a>
+                        <!-- <a class="link color-white f-18 mx-15" href="https://docs.razor.network">Documentation</a> -->
 
                         <a href="https://t.me/razornetwork" class="mx-15 link color-white">
                             <i class="fab fa-telegram fa-2x"></i>
