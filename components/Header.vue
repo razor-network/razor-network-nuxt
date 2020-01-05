@@ -49,8 +49,8 @@
 
             <div class="socials mt-120">
                 <a href="https://t.me/razornetwork" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-telegram"></i></a>
-                <a href="https://twitter.com/razor_network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-twitter"></i></a>
-                <a href="https://medium.com/razor-network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-medium"></i></a>
+                <!-- <a href="https://twitter.com/razor_network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-twitter"></i></a> -->
+                <!-- <a href="https://medium.com/razor-network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-medium"></i></a> -->
                 <a href="https://github.com/razor-network" target="_blank" class="link color-main f-18 mx-10"><i class="fab fa-github"></i></a>
 
             </div>
@@ -116,12 +116,12 @@
                         <a href="https://t.me/razornetwork" class="mx-15 link color-white">
                             <i class="fab fa-telegram fa-2x"></i>
                         </a>
-                        <a href="https://twitter.com/razor_network" class="mx-15 link color-white">
+                        <!-- <a href="https://twitter.com/razor_network" class="mx-15 link color-white">
                             <i class="fab fa-twitter fa-2x"></i>
-                        </a>
-                        <a href="https://medium.com/razor-network" target="_blank" class="mx-15 link color-white">
+                        </a> -->
+                        <!-- <a href="https://medium.com/razor-network" target="_blank" class="mx-15 link color-white">
                             <i class="fab fa-medium fa-2x"></i>
-                        </a>
+                        </a> -->
                         <a href="https://github.com/razor-network" class="mx-15 link color-white">
                             <i class="fab fa-github fa-2x"></i>
                         </a>

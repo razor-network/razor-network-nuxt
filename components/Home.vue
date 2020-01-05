@@ -40,12 +40,12 @@ Traditionally this is done by using a centralized entities called “Oracles”.
             <a href="https://t.me/razornetwork" target="_blank" class="link color-white f-30 mx-10">
                 <i class="fab fa-telegram"></i>
             </a>
-            <a href="https://twitter.com/razor_network" target="_blank" class="link color-white f-30 mx-10">
+            <!-- <a href="https://twitter.com/razor_network" target="_blank" class="link color-white f-30 mx-10">
                 <i class="fab fa-twitter"></i>
             </a>
             <a href="https://medium.com/razor-network" target="_blank" class="link color-white f-30 mx-10">
                 <i class="fab fa-medium"></i>
-            </a>
+            </a> -->
             <a href="https://github.com/razor-network" target="_blank" class="link color-white f-30 mx-10">
                 <i class="fab fa-github"></i>
             </a>

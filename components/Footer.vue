@@ -24,12 +24,12 @@
             <a href="https://t.me/razornetwork" class="mx-15 link color-white">
               <i class="fab fa-2x fa-telegram"></i>
             </a>
-            <a href="https://twitter.com/razor_network" class="mx-15 link color-white">
+            <!-- <a href="https://twitter.com/razor_network" class="mx-15 link color-white">
               <i class="fab fa-2x fa-twitter"></i>
             </a>
             <a href="https://medium.com/razor-network" class="mx-15 link color-white">
               <i class="fab fa-2x fa-medium"></i>
-            </a>
+            </a> -->
             <a href="https://github.com/razor-network" class="mx-15 link color-white">
               <i class="fab fa-2x fa-github"></i>
             </a>
