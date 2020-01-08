@@ -26,7 +26,7 @@
 
         <div class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive">
             <span>
-                Razor Network connects smart contracts with data in fast and secure way.
+                Razor Network provides verified data in a truly decentralized way.
                 <!-- Blockchains do not have access to the data from outside the blockchain. Such data is necessary for operation of various decentralized applications.
 
 Traditionally this is done by using a centralized entities called “Oracles”. But they are a single point of failure in otherwise decentralized applications and must be trustworthy.
