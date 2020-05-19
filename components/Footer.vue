@@ -6,11 +6,8 @@
 
           <div
             class="col-lg-4 col-sm-4 text-sm-left text-lg-left">
-            <div class="color-white">Razor Network Pte Ltd</div>
-            <div class="color-white">160 Robinson Road,</div>
-            <div class="color-white">#14-04 Singapore Business Federation Centre, </div>
-            <div class="color-white">Singapore 068914</div>
-            <div class="color-white text-adaptive">&copy; 2019 All rights reserved</div>
+            <div class="color-white">Razor Network</div>
+            <div class="color-white text-adaptive">&copy; 2020 All rights reserved</div>
 
           </div>
           <div
