@@ -111,7 +111,7 @@
                         <!-- </b-nav-item-dropdown> -->
                         <nuxt-link to="/developers" class="link color-white f-18 mx-15">Developers</nuxt-link>
                         <!-- <nuxt-link to="/mobile" class="link color-white f-18 mx-15">Mobile</nuxt-link> -->
-                        <a class="link color-white f-18 mx-15" href="https://docs.razor.network">Documentation</a>
+                        <a class="link color-white f-18 mx-15" href="https://docs.razor.to">Documentation</a>
 
                         <a href="https://t.me/razornetwork" class="mx-15 link color-white">
                             <i class="fab fa-telegram fa-2x"></i>
