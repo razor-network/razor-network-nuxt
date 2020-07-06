@@ -28,7 +28,7 @@
                 <!-- <nuxt-link to="/mobile" class="f-heading f-22 link color-main mb-20">Mobile</nuxt-link> -->
             </div>
             <div>
-                <!-- <a href="https://docs.razor.network" class="f-heading f-22 link color-main mb-20">Documentation</a> -->
+                <!-- <a href="https://docs.razor.to" class="f-heading f-22 link color-main mb-20">Documentation</a> -->
             </div>
             <div>
                 <!-- <a class="f-heading f-22 link color-main mb-20" target="_blank" href="https://razorscan.io">RazorScan</a> -->
