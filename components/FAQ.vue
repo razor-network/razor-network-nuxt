@@ -36,7 +36,7 @@
         <b-card-body>
           <b-card-text>
             Razor Network is a Proof of Stake consensus algorithm which achieves consensus on oracle values by Truth-by-consensus algorithm.
-            Razor Network currently runs directly on Ethereum public networks. In the future, it will run on its own Proof of Stake Network.
+            Razor Network is blockchain agnostic and can run on any ethereum compatible network.
           </b-card-text>
         </b-card-body>
     </b-collapse>
