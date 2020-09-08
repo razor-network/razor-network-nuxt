@@ -96,7 +96,6 @@ Traditionally this is done by using a centralized entities called “Oracles”.
 
                         <nuxt-link to="/whitepaper" class="mb-30 ml-20 mr-20 btn md action-1">Whitepaper</nuxt-link>
                         <a href="https://docs.razor.network/explainer/" target="_blank" class="mb-30 ml-20 mr-20 btn md action-1">Explainer</a>
-                        <nuxt-link to="/litepaper" class="mb-30 ml-20 mr-20 btn md action-1">Technical Summary</nuxt-link>
                     </div>
                 </div>
             </div>
