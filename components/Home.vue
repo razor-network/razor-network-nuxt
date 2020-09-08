@@ -137,8 +137,7 @@ Traditionally this is done by using a centralized entities called “Oracles”.
                             <i class="fas fa-expand-arrows-alt f-60 color-white"></i>
                             <div class="mt-20 mb-25 f-22 title color-white">Scalable</div>
                             <div class="color-white text-adaptive">
-                                Deployed on a highly scalable and asynchronous
-                                network. Can serve data to other networks.
+                                Deployed on scalable network and chain agnostic.
                             </div>
                         </div>
                         <!-- <div class="col-md-4 mb-50">
