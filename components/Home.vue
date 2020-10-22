@@ -227,6 +227,60 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
       </div>
     </section>
 
+    <section class="call_to_action_1 bg-light pt-110 pb-95 text-center team-section">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div
+            class="col-xl-12 col-lg-10"
+
+          >
+            <h2>Team</h2>
+          </div>
+          <div
+            class="col-xl-12 col-lg-9 col-md-10"
+          >
+          <Team />
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="call_to_action_1 bg-light pt-110 pb-95 text-center">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div
+            class="col-xl-12 col-lg-10"
+
+          >
+            <h2>Investors</h2>
+          </div>
+          <div
+            class="col-xl-12 col-lg-9 col-md-10"
+          >
+          <Investors />
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="call_to_action_1 bg-dark pt-110 pb-95 text-center partners-section">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div
+            class="col-xl-12 col-lg-10"
+
+          >
+            <h2 class="color-white">Partners</h2>
+          </div>
+          <div
+            class="col-xl-12 col-lg-9 col-md-10"
+          >
+          <Partners />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="call_to_action_1 bg-light pt-110 pb-95 text-center">
       <div class="container px-xl-0">
         <div class="row justify-content-center">
@@ -275,11 +329,17 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
 
 <script>
 import FAQ from "./FAQ";
+import Team from "./Team";
+import Investors from "./Investors";
+import Partners from "./Partners";
 import { setInterval, setTimeout } from "timers";
 export default {
   name: "container",
   components: {
-    FAQ
+    FAQ,
+    Team,
+    Investors,
+    Partners
   },
   data() {
     return {
@@ -333,4 +393,12 @@ export default {
 .container1 {
   height: 100vh;
 }
+
+.team-section {
+  background-color: #f5f7fa !important;
+}
+
+.partners-section h2 {
+  color: white;
+  }
 </style>
