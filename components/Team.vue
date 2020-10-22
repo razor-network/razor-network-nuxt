@@ -52,7 +52,7 @@ export default {
 <style scoped>
 
 .page-wrapper {
-  background-color: #f5f7fa;
+  background-color: transparent;
   margin: auto;
   display: flex;
   flex-wrap: wrap;

@@ -1,48 +1,39 @@
 <template>
 <div class="page-wrapper">
     <div class="profile-box">
-      <img src="https://placeimg.com/200/200/any" alt="profile pic">
-      <h3>John Appleseed</h3>
-      <h4>Founder, CEO</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit nibh finibus, pellentesque ante id, ullamcorper lacus. Nam vel malesuada.</p>
-      <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="fab fa-twitter"></i></span>
-        <span class="profile-btn" id="view"><i class="fab fa-linkedin-in"></i></span>
-      </div>
+      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
     </div>
     <div class="profile-box">
-      <img src="https://placeimg.com/200/200/any" alt="profile pic">
-      <h3>John Appleseed</h3>
-      <h4>Founder, CEO</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit nibh finibus, pellentesque ante id, ullamcorper lacus. Nam vel malesuada.</p>
-      <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="fab fa-twitter"></i></span>
-        <span class="profile-btn" id="view"><i class="fab fa-linkedin-in"></i></span>
-      </div>
+      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
     </div>
-        <div class="profile-box">
-      <img src="https://placeimg.com/200/200/any" alt="profile pic">
-      <h3>John Appleseed</h3>
-      <h4>Founder, CEO</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit nibh finibus, pellentesque ante id, ullamcorper lacus. Nam vel malesuada.</p>
-      <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="fab fa-twitter"></i></span>
-        <span class="profile-btn" id="view"><i class="fab fa-linkedin-in"></i></span>
-      </div>
+    <div class="profile-box">
+      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Investors"
+  name: "investors"
 };
 </script>
 
 <style scoped>
 
 .page-wrapper {
-  /* background-color: #f5f7fa; */
+  background-color: transparent;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -66,11 +57,11 @@ nav {
 
 .profile-box {
   background: #ffffff;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
   border-radius: 3px;
   margin: 16px 16px;
   padding: 16px 16px;
-  width: 240px;
+  width: 200px;
   text-align: center;
   transition: 300ms;
   flex-grow: 1;
@@ -78,7 +69,7 @@ nav {
 
 .profile-box:hover {
   /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
-  box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -140,10 +131,10 @@ h4 {
 #assign,
 #view {
   width: 50%;
-  font-size: 18px;
+  font-size: 14px;
   color: #98a0a6;
   font-weight: 300;
-  padding: 2px 0;
+  padding: 8px 0;
   border-radius: 100px;
   transition: 300ms;
   cursor: pointer;
@@ -151,9 +142,9 @@ h4 {
 
 #assign:hover,
 #view:hover {
-  /* background-color: #507bfc; */
-  color: #626e75;
-  /* box-shadow: 0 10px 20px 0 rgba(80, 123, 252, 0.5); */
+  background-color: #507bfc;
+  color: white;
+  box-shadow: 0 10px 20px 0 rgba(80, 123, 252, 0.5);
 }
 
 #assign {

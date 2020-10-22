@@ -57,7 +57,7 @@ nav {
 
 .profile-box {
   background: #ffffff;
-  box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
   border-radius: 3px;
   margin: 16px 16px;
   padding: 16px 16px;
@@ -69,7 +69,7 @@ nav {
 
 .profile-box:hover {
   /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
-  box-shadow: 0 0 20px 9px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.2);
 }
 
 img {
