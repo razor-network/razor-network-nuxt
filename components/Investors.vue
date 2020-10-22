@@ -21,6 +21,27 @@
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
+    <div class="profile-box">
+      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box">
+      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box">
+      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
   </div>
 </template>
 
@@ -61,7 +82,7 @@ nav {
   border-radius: 3px;
   margin: 16px 16px;
   padding: 16px 16px;
-  width: 200px;
+  width: 240px;
   text-align: center;
   transition: 300ms;
   flex-grow: 1;
