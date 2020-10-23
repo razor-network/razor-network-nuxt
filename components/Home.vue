@@ -261,6 +261,21 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
           </div>
         </div>
       </div>
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div
+            class="col-xl-12 col-lg-10"
+
+          >
+            <h2 class="color-white">Advisors</h2>
+          </div>
+          <div
+            class="col-xl-12 col-lg-9 col-md-10"
+          >
+          <Advisors />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="call_to_action_1 bg-light pt-110 pb-95 text-center">
@@ -313,7 +328,7 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
 import FAQ from "./FAQ";
 import Team from "./Team";
 import Investors from "./Investors";
-import Partners from "./Partners";
+import Advisors from "./Advisors";
 import { setInterval, setTimeout } from "timers";
 export default {
   name: "container",
@@ -321,7 +336,7 @@ export default {
     FAQ,
     Team,
     Investors,
-    Partners
+    Advisors
   },
   data() {
     return {

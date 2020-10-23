@@ -1,21 +1,20 @@
 <template>
 <div class="page-wrapper">
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/chirdeep.jpeg" alt="profile pic">
+      <h3>Chirdeep Singh Chhabra</h3>
+      <h4>Advisor</h4>
+      <p>Chirdeep is the Founder of Ocean Protocol, which is a decentralized data exchange protocol that unlocks data for AI. He has been previously the CEO of DEX Pte Ltd which is a DaaS Data marketplace, enables data sharing for big data analytics and AI. Also, Chirdeep has been the Senior Manager Data Programs for Digital Catapult, a blockchain technology company.</p>
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
-      <!-- <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
-        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
-      </div> -->
-    </div>
-    <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/nathan.jpeg" alt="profile pic">
+      <h3>Nathan Sexer</h3>
+      <h4>Advisor</h4>
+      <p>Nathan is the Head of Growth & Marketing at The Sandbox which is a user-generated gaming platform where creators can monetize on the Ethereum blockchain. He has been a technical advisor at Blockchain at Berkeley, which is a university-based eco-system for blockchain. This organisation is helping other organisations in educating the community regarding blockchain.</p>
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
@@ -26,7 +25,7 @@
 
 <script>
 export default {
-  name: "partners"
+  name: "team"
 };
 </script>
 
@@ -42,6 +41,7 @@ export default {
   padding-left: calc(5% - 16px);
   padding-right: calc(5% - 16px);
   margin-top: 32px;
+  margin-bottom: 36px;
   /* padding: 0 5%; */
 }
 
@@ -57,11 +57,11 @@ nav {
 
 .profile-box {
   background: #ffffff;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   border-radius: 3px;
   margin: 16px 16px;
   padding: 16px 16px;
-  width: 200px;
+  width: 300px;
   text-align: center;
   transition: 300ms;
   flex-grow: 1;
@@ -69,7 +69,7 @@ nav {
 
 .profile-box:hover {
   /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
-  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 9px rgba(0, 0, 0, 0.03);
 }
 
 img {
