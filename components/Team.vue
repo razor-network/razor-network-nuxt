@@ -69,13 +69,13 @@
       <img src="../assets/images/chirdeep.jpeg" alt="profile pic">
       <h3>Chirdeep Singh Chhabra</h3>
       <h4>Advisor</h4>
-      <p>Founder, Ocean Protocol. Previously, CEO of DEX Pte Ltd. Senior Manager Data Programs, Digital Catapult.</p>
+      <p>Founder, Ocean Protocol.<br />Previously, CEO of DEX Pte Ltd.</p>
     </div>
     <div class="profile-box">
       <img src="../assets/images/nathan.jpeg" alt="profile pic">
       <h3>Nathan Sexer</h3>
       <h4>Advisor</h4>
-      <p>Head of Growth & Marketing, The Sandbox. Technical advisor, Blockchain at Berkeley.</p>
+      <p>Head of Growth & Marketing, The Sandbox.<br />Technical advisor, Blockchain at Berkeley.</p>
     </div>
   </div>
 </template>

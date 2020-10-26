@@ -1,42 +1,42 @@
 <template>
 <div class="page-wrapper">
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/alameda.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/bitblock.jpg" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/bixin.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/borderless.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/btc12.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
     <div class="profile-box">
-      <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=007" alt="profile pic">
+      <img src="../assets/images/consensus.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
@@ -94,10 +94,9 @@ nav {
 }
 
 img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
+  max-width: 200px;
+  /* border-radius: 50%; */
+  /* box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1); */
 }
 
 #logo {
