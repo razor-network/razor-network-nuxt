@@ -1,42 +1,70 @@
 <template>
 <div class="page-wrapper">
-    <div class="profile-box">
+    <div class="profile-box alameda">
       <img src="../assets/images/alameda.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box">
+    <div class="profile-box bitblobk">
       <img src="../assets/images/bitblock.jpg" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box">
+    <div class="profile-box bixin">
       <img src="../assets/images/bixin.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box">
+    <div class="profile-box borderless">
       <img src="../assets/images/borderless.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box">
+    <div class="profile-box btc12">
       <img src="../assets/images/btc12.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box">
+    <div class="profile-box consensus">
       <img src="../assets/images/consensus.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box genblock">
+      <img src="../assets/images/genblock.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box iosg">
+      <img src="../assets/images/iosg.jpeg" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box kosmos">
+      <img src="../assets/images/kosmos.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box oneblock">
+      <img src="../assets/images/oneblock.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
@@ -82,7 +110,7 @@ nav {
   border-radius: 3px;
   margin: 16px 16px;
   padding: 16px 16px;
-  width: 240px;
+  width: 180px;
   text-align: center;
   transition: 300ms;
   flex-grow: 1;
@@ -180,5 +208,30 @@ i {
   margin-right: 8px;
 }
 
+.alameda {
+  top: 70px;
+  position: relative;
+}
 
+.bixin {
+  position: relative;
+  top: 50px;
+
+}
+
+.borderless {
+    position: relative;
+    top: 76px;
+}
+
+.iosg {
+  top: -70px;
+    position: relative;
+}
+
+.kosmos {
+  position: relative;
+  top: -15px;
+
+}
 </style>
