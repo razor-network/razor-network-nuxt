@@ -261,7 +261,7 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
           </div>
         </div>
       </div>
-      <div class="container px-xl-0">
+      <!-- <div class="container px-xl-0">
         <div class="row justify-content-center">
           <div
             class="col-xl-12 col-lg-10"
@@ -275,7 +275,7 @@ Razor Network is a decentralized oracle providing data to the smart contracts us
           <Advisors />
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <section class="call_to_action_1 bg-light pt-110 pb-95 text-center">
