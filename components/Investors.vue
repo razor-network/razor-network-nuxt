@@ -78,7 +78,7 @@ nav {
 
 .profile-box {
   background: #ffffff;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
+  /* box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3); */
   border-radius: 3px;
   margin: 16px 16px;
   padding: 16px 16px;
@@ -90,11 +90,12 @@ nav {
 
 .profile-box:hover {
   /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
-  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.2); */
 }
 
 img {
   max-width: 200px;
+  filter: grayscale(100%);
   /* border-radius: 50%; */
   /* box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1); */
 }
