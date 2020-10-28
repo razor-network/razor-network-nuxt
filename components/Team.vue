@@ -65,7 +65,7 @@
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box">
+    <!-- <div class="profile-box">
       <img src="../assets/images/chirdeep.jpeg" alt="profile pic">
       <h3>Chirdeep Singh Chhabra</h3>
       <h4>Advisor</h4>
@@ -76,7 +76,7 @@
       <h3>Nathan Sexer</h3>
       <h4>Advisor</h4>
       <p>Head of Growth & Marketing, The Sandbox.<br />Technical advisor, Blockchain at Berkeley.</p>
-    </div>
+    </div> -->
   </div>
 </template>
 
