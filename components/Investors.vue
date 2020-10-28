@@ -72,7 +72,7 @@
     </div>
 
     <div class="profile-box btc12">
-      <img src="../assets/images/btc12.png" alt="profile pic">
+      <img src="../assets/images/btc12.jpeg" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
@@ -320,7 +320,7 @@ i {
   }
   .btc12 {
     position: relative;
-    top: -60px;
+    top: -44px;
   }
 
   .bitblock {
