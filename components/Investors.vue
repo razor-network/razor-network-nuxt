@@ -1,14 +1,42 @@
 <template>
 <div class="page-wrapper">
-    <div class="profile-box alameda">
+    <div class="profile-box alameda main">
+      <img src="../assets/images/ngc.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box main">
       <img src="../assets/images/alameda.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
+    <div class="profile-box borderless main">
+      <img src="../assets/images/borderless.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box iosg main">
+      <img src="../assets/images/iosg.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
     <div class="profile-box bitblobk">
-      <img src="../assets/images/bitblock.jpg" alt="profile pic">
+      <img src="../assets/images/zmt.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+        <div class="profile-box origin">
+      <img src="../assets/images/origin.webp" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
@@ -21,42 +49,14 @@
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box borderless">
-      <img src="../assets/images/borderless.png" alt="profile pic">
+    <div class="profile-box spark">
+      <img src="../assets/images/spark.webp" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box btc12">
-      <img src="../assets/images/btc12.png" alt="profile pic">
-      <!-- <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
-        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
-      </div> -->
-    </div>
-    <div class="profile-box consensus">
-      <img src="../assets/images/consensus.png" alt="profile pic">
-      <!-- <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
-        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
-      </div> -->
-    </div>
-    <div class="profile-box genblock">
-      <img src="../assets/images/genblock.png" alt="profile pic">
-      <!-- <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
-        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
-      </div> -->
-    </div>
-    <div class="profile-box iosg">
-      <img src="../assets/images/iosg.jpeg" alt="profile pic">
-      <!-- <div class="btn-container">
-        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
-        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
-      </div> -->
-    </div>
-    <div class="profile-box kosmos">
+        <div class="profile-box kosmos">
       <img src="../assets/images/kosmos.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
@@ -70,6 +70,45 @@
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
+
+    <div class="profile-box btc12">
+      <img src="../assets/images/btc12.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box">
+      <img src="../assets/images/trg.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+
+    <div class="profile-box genblock">
+      <img src="../assets/images/genblock.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box bitblock">
+      <img src="../assets/images/bitblock.jpg" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+    <div class="profile-box consensus">
+      <img src="../assets/images/consensus.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+
+
   </div>
 </template>
 
@@ -104,16 +143,21 @@ nav {
   align-items: center;
 }
 
+.main {
+  width: 220px !important;
+}
+
 .profile-box {
-  background: #ffffff;
+  /* background: #ffffff; */
   /* box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3); */
   border-radius: 3px;
   margin: 16px 16px;
   padding: 16px 16px;
-  width: 180px;
+  width: 150px;
   text-align: center;
   transition: 300ms;
   flex-grow: 1;
+  height: 100px;
 }
 
 .profile-box:hover {
@@ -121,8 +165,13 @@ nav {
   /* box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.2); */
 }
 
+.main img {
+  max-width: 200px !important;
+  filter: grayscale(100%);
+}
+
 img {
-  max-width: 200px;
+  max-width: 150px;
   filter: grayscale(100%);
   /* border-radius: 50%; */
   /* box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1); */
@@ -208,30 +257,43 @@ i {
   margin-right: 8px;
 }
 
-.alameda {
-  top: 70px;
-  position: relative;
+@media (max-width: 768px) {
+  .profile-box {
+    width: 200px;
+  }
 }
-
-.bixin {
-  position: relative;
-  top: 50px;
-
-}
-
-.borderless {
+@media (min-width: 768px) {
+  .origin {
     position: relative;
-    top: 76px;
-}
+      top: -60px;
+  }
 
-.iosg {
-  top: -70px;
+  .alameda {
+      position: relative;
+      top: -70px;
+  }
+
+  .bixin {
     position: relative;
-}
+    top: -20px;
+  }
 
-.kosmos {
-  position: relative;
-  top: -15px;
+  .spark {
+    position: relative;
+    top: -60px;
+  }
+  .kosmos {
+    position: relative;
+    top: -15px;
+  }
+  .btc12 {
+    position: relative;
+    top: -60px;
+  }
 
+  .bitblock {
+    position: relative;
+    top: -60px;
+  }
 }
 </style>
