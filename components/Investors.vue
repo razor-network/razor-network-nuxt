@@ -108,6 +108,26 @@
       </div> -->
     </div>
 
+    <div class="profile-box matic">
+      <img src="../assets/images/matic.png" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+
+    <div class="profile-box skale">
+      <img src="../assets/images/skale.webp" alt="profile pic">
+      <!-- <div class="btn-container">
+        <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
+        <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
+      </div> -->
+    </div>
+<!--
+    <div class="profile-box persistence">
+      <img src="../assets/images/persistence.svg" alt="profile pic">
+    </div> -->
+
 
   </div>
 </template>
@@ -306,6 +326,10 @@ i {
   .bitblock {
     position: relative;
     top: -60px;
+  }
+  .skale {
+    position: relative;
+    top: -10px;
   }
 }
 </style>
