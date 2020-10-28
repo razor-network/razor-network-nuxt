@@ -28,7 +28,7 @@
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
       </div> -->
     </div>
-    <div class="profile-box bitblobk">
+    <div class="profile-box zmt">
       <img src="../assets/images/zmt.png" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
@@ -263,6 +263,18 @@ i {
   }
 }
 @media (min-width: 768px) {
+  .genblock {
+    position: relative;
+    top:-15px;
+  }
+  .borderless {
+    position: relative;
+    top: 6px
+  }
+  .zmt {
+    position: relative;
+    top: -12px
+  }
   .origin {
     position: relative;
       top: -60px;
