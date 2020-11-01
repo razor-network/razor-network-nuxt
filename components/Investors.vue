@@ -43,7 +43,7 @@
       </div> -->
     </div>
     <div class="profile-box bixin">
-      <img src="../assets/images/bixin.png" alt="profile pic">
+      <img src="../assets/images/bixin.jpeg" alt="profile pic">
       <!-- <div class="btn-container">
         <span class="profile-btn" id="assign"><i class="far fa-clipboard"></i></i>Assign</span>
         <span class="profile-btn" id="view"><i class="far fa-eye"></i>view</span>
